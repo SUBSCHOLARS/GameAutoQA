@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "N2peZQQfRP0=",
+  "success": true,
+  "projectFilePath": "/Users/hatanakakouta/QaTestbed/Tools/QaConsole/QaConsole.csproj",
+  "expectedPackageFiles": [
+    "/Users/hatanakakouta/.nuget/packages/microsoft.netcore.app.ref/8.0.25/microsoft.netcore.app.ref.8.0.25.nupkg.sha512",
+    "/Users/hatanakakouta/.nuget/packages/microsoft.aspnetcore.app.ref/8.0.25/microsoft.aspnetcore.app.ref.8.0.25.nupkg.sha512",
+    "/Users/hatanakakouta/.nuget/packages/microsoft.netcore.app.host.osx-arm64/8.0.25/microsoft.netcore.app.host.osx-arm64.8.0.25.nupkg.sha512"
+  ],
+  "logs": []
+}

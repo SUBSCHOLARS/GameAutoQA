@@ -1,0 +1,11 @@
+﻿participant,skill,t_sec,step,event,detail,bug,x,y
+P01,unknown,0.00,0,start,bugs=R1+R2+S1+S2+C1+C2+H1+H2,,2,2
+P01,unknown,7.75,11,trigger,S2,S2,5,4
+P01,unknown,14.88,27,trigger,S1,S1,14,10
+P01,unknown,14.88,27,oracle,INVARIANT:door_without_key:red,S1,14,10
+P01,unknown,25.53,62,trigger,H1,H1,4,12
+P01,unknown,28.21,70,oracle,SOFTLOCK,H1,4,13
+P01,unknown,35.25,82,restart,,,4,12
+P01,unknown,36.81,82,restart,,,2,2
+P01,unknown,47.09,106,oracle,INVARIANT:duplicate_key:green,S2,4,3
+P01,unknown,57.81,137,finish,quit,,16,9

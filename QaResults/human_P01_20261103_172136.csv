@@ -1,0 +1,5 @@
+﻿participant,skill,t_sec,step,event,detail,bug,x,y
+P01,unknown,0.00,0,start,bugs=R1+R2+S1+S2+C1+C2+H1+H2,,2,2
+P01,unknown,15.14,28,trigger,H1,H1,4,12
+P01,unknown,16.10,30,oracle,SOFTLOCK,H1,4,12
+P01,unknown,18.76,32,finish,quit,,4,12

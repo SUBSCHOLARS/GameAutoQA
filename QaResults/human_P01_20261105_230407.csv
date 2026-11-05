@@ -1,0 +1,5 @@
+﻿participant,skill,t_sec,step,event,detail,bug,x,y
+P01,unknown,0.00,0,start,bugs=R1+R2+S1+S2+C1+C2+H1+H2,,2,2
+P01,unknown,4.32,9,trigger,S2,S2,5,4
+P01,unknown,13.03,53,clear,CLEAR first=COIN#0,,17,13
+P01,unknown,15.58,53,finish,quit,,17,13

@@ -1,0 +1,6 @@
+﻿participant,skill,t_sec,step,event,detail,bug,x,y
+P01,unknown,0.00,0,start,bugs=R1+R2+S1+S2+C1+C2+H1+H2,,2,2
+P01,unknown,1.85,5,trigger,S2,S2,5,4
+P01,unknown,11.35,50,trigger,C1,C1,17,13
+P01,unknown,11.35,50,oracle,CRASH:NullReferenceException,C1,17,13
+P01,unknown,35.87,50,finish,quit,,17,13
