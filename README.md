@@ -176,3 +176,8 @@ python analysis/plot_curves.py QaResults/<日時>
 | Position | 位置 (x, y) だけ |
 | Position+Keys	| 位置 ＋ 持っている鍵 ＋ 開いた扉 |
 | Full | 上に加えて、床に残っている鍵・コインの枚数・動けない状態か |
+
+## 次回の動き
+- LLM導入の検討（Llamma）
+- C1がどうなるかを見たい
+- ステージデザイン複数で見てみる
