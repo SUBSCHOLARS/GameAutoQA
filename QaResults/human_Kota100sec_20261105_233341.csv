@@ -1,0 +1,20 @@
+﻿participant,skill,t_sec,step,event,detail,bug,x,y
+Kota,developer,0.00,0,start,bugs=R1+R2+S1+S2+C1+C2+H1+H2,,2,2
+Kota,developer,2.33,5,trigger,S2,S2,5,4
+Kota,developer,3.73,6,report,report#1,,5,5
+Kota,developer,11.05,19,trigger,H1,H1,4,12
+Kota,developer,12.56,19,report,report#2,,4,12
+Kota,developer,13.72,20,oracle,SOFTLOCK,H1,4,12
+Kota,developer,15.41,22,report,report#3,,4,12
+Kota,developer,16.22,22,restart,,,4,12
+Kota,developer,38.57,90,clear,CLEAR first=COIN#1,,17,13
+Kota,developer,40.86,90,restart,,,17,13
+Kota,developer,48.93,115,trigger,R1,R1,1,9
+Kota,developer,48.93,115,oracle,UNREACHABLE:inwall,R1,1,9
+Kota,developer,50.57,115,report,report#4,,1,9
+Kota,developer,69.03,177,trigger,H2,H2,12,9
+Kota,developer,69.75,180,oracle,SOFTLOCK,H2,12,9
+Kota,developer,70.48,182,report,report#5,,12,9
+Kota,developer,70.67,182,report,report#6,,12,9
+Kota,developer,71.94,182,restart,,,12,9
+Kota,developer,100.00,276,finish,time_limit,,6,10

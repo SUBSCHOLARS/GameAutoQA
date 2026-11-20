@@ -1,0 +1,19 @@
+﻿participant,skill,t_sec,step,event,detail,bug,x,y
+KotaPresentation,developer,0.00,0,start,bugs=R1+R2+S1+S2+C1+C2+H1+H2,,2,2
+KotaPresentation,developer,3.37,5,trigger,S2,S2,5,4
+KotaPresentation,developer,4.71,5,report,report#1,,5,4
+KotaPresentation,developer,28.79,66,clear,CLEAR first=COIN#2,,17,13
+KotaPresentation,developer,30.42,66,restart,,,17,13
+KotaPresentation,developer,42.87,81,trigger,R1,R1,1,9
+KotaPresentation,developer,42.87,81,oracle,UNREACHABLE:inwall,R1,1,9
+KotaPresentation,developer,45.25,84,report,report#2,,0,9
+KotaPresentation,developer,50.14,96,trigger,H1,H1,4,12
+KotaPresentation,developer,51.25,96,report,report#3,,4,12
+KotaPresentation,developer,52.55,98,restart,,,4,12
+KotaPresentation,developer,72.73,132,trigger,H2,H2,12,9
+KotaPresentation,developer,74.87,140,oracle,SOFTLOCK,H2,12,9
+KotaPresentation,developer,76.48,143,report,report#4,,12,9
+KotaPresentation,developer,77.39,143,restart,,,12,9
+KotaPresentation,developer,90.65,168,trigger,S1,S1,14,10
+KotaPresentation,developer,90.65,168,oracle,INVARIANT:door_without_key:red,S1,14,10
+KotaPresentation,developer,100.00,173,finish,time_limit,,14,11

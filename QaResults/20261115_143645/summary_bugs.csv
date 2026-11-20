@@ -1,0 +1,9 @@
+﻿agent,bug,runs,triggered_rate,detected_rate,median_detect_step
+LlmGoExplore(Position+Keys),R1,2,0.5,0.5,1342.0
+LlmGoExplore(Position+Keys),R2,2,0.0,0.0,
+LlmGoExplore(Position+Keys),S1,2,0.5,0.5,1806.0
+LlmGoExplore(Position+Keys),S2,2,1.0,0.5,1759.0
+LlmGoExplore(Position+Keys),C1,2,0.0,0.0,
+LlmGoExplore(Position+Keys),C2,2,0.0,0.0,
+LlmGoExplore(Position+Keys),H1,2,0.0,0.0,
+LlmGoExplore(Position+Keys),H2,2,1.0,1.0,1525.0

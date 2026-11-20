@@ -1,0 +1,14 @@
+{
+  "llm_model": "qwen2.5:7b-instruct",
+  "llm_digest": "845dbda0ea48ed749caafd9e6037047aa19acfcfd82e704d7ca97d631a0b697e",
+  "llm_options": {"temperature":0,"top_k":1,"seed":0,"num_ctx":4096,"num_predict":128},
+  "ollama_version": "0.40.16",
+  "llm_cache": "/Users/hatanakakouta/QaTestbed/QaResults/llm_cache.jsonl",
+  "llm_cache_hits": 0,
+  "llm_cache_misses": 66,
+  "llm_candidates": 8,
+  "llm_describe": "rich",
+  "step_budget": 2000,
+  "seeds": 1,
+  "system_prompt": "You are a QA tester hunting for bugs in a small 2D grid game.\nMap legend: '#' wall, '.' floor, ' ' outside the level, 'S' start, 'E' exit, 'r' 'g' 'b' keys, 'R' 'G' 'B' doors (opened by the key of the same colour, which is used up), 'c' coin, 'X' sealed room. x is the column, y is the row (0 at top).\nThe player moves up/down/left/right and can interact. Clearing the game means interacting at 'E'.\nTypical bugs: getting through walls or out of bounds, doors opening without the right key, items that can be collected twice, crashes, and getting stuck so the exit can no longer be reached.\n\nMap (initial state):\n    01234567890123456789012345\n 0                            \n 1   ########    ############ \n 2   #S...c.#    #....r.#XXX# \n 3   #..g...#    #......#XXX# \n 4   ####.###    #...c..#XXX# \n 5      #.#      ###G######## \n 6   ####.##########.######   \n 7   #.....c.........c....#   \n 8   #.b..................#   \n 9   #....................#   \n10   #....................#   \n11   ###B#########R########   \n12     #.#       #.......#    \n13     #c#       #...E...#    \n14     ###       #########    \n15                            \n\nYou are exploring with Go-Explore. You keep an archive of saved states. Each turn you pick one saved state; the game is restored to it and then 30 random moves are made from there. Pick the state most likely to reveal a bug or a situation not yet explored. 'chosen' is how often a state was picked before, 'seen' how often it was reached.\nEach candidate also describes its surroundings: walking distances (in moves, closed doors block the way) to unvisited tiles, keys still on the floor, closed doors, the exit and coins.\nAnswer only with JSON of the form {\"reason\": \"<one short sentence>\", \"choice\": <candidate number>}."
+}

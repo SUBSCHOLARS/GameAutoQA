@@ -1,0 +1,4 @@
+﻿run_id,agent,seed,signature,bug,category,step,elapsed_ms,x,y
+1,LlmGoExplore(Position+Keys),0,INVARIANT:door_without_key:red,S1,State,555,300822.535,14,10
+1,LlmGoExplore(Position+Keys),0,SOFTLOCK,H2,Softlock,800,421215.779,12,9
+1,LlmGoExplore(Position+Keys),0,UNREACHABLE:inwall,R1,Reachability,1209,616486.055,1,9

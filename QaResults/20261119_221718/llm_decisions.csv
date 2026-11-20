@@ -1,0 +1,67 @@
+﻿run_id,agent,seed,step,candidates,choice,rule_index,picked_rule_choice,fallback,chosen_state,chosen_times_chosen,chosen_times_seen,picked_min_seen,min_seen,max_seen,reason
+1,LlmGoExplore(Position+Keys),0,30,7,0,1,0,0,"pos=(5,2) keys_held=[] doors_open=[] keys_taken=[] coins=0 frozen=no",0,1,1,1,9,unreachable exit and keys
+1,LlmGoExplore(Position+Keys),0,60,8,0,7,0,0,"pos=(7,2) keys_held=[] doors_open=[] keys_taken=[] coins=1 frozen=no",0,9,0,2,12,unreachable exit and keys
+1,LlmGoExplore(Position+Keys),0,90,8,6,5,0,0,"pos=(5,3) keys_held=[] doors_open=[] keys_taken=[] coins=1 frozen=no",0,1,1,1,10,unvisited tiles and blue key
+1,LlmGoExplore(Position+Keys),0,120,8,5,4,0,0,"pos=(11,7) keys_held=[] doors_open=[] keys_taken=[] coins=2 frozen=no",0,1,1,1,13,unvisited tiles and sealed rooms
+1,LlmGoExplore(Position+Keys),0,150,8,2,6,0,0,"pos=(6,7) keys_held=[] doors_open=[] keys_taken=[] coins=1 frozen=no",0,2,0,1,9,unvisited tiles and close exit
+1,LlmGoExplore(Position+Keys),0,180,8,0,0,1,0,"pos=(11,9) keys_held=[] doors_open=[] keys_taken=[] coins=2 frozen=no",0,1,1,1,8,unreachable exit and keys
+1,LlmGoExplore(Position+Keys),0,210,8,0,1,0,0,"pos=(13,8) keys_held=[] doors_open=[] keys_taken=[] coins=2 frozen=no",0,6,0,1,8,unreachable exit and multiple keys/doors to explore
+1,LlmGoExplore(Position+Keys),0,240,8,1,7,0,0,"pos=(10,8) keys_held=[] doors_open=[] keys_taken=[] coins=2 frozen=no",0,3,0,2,17,unreachable exit and keys
+1,LlmGoExplore(Position+Keys),0,270,8,0,1,0,0,"pos=(6,2) keys_held=[] doors_open=[] keys_taken=[] coins=1 frozen=no",0,2,0,1,3,unreachable exit and multiple closed doors
+1,LlmGoExplore(Position+Keys),0,300,8,6,6,1,0,"pos=(11,7) keys_held=[] doors_open=[] keys_taken=[] coins=2 frozen=no",1,8,0,2,8,unvisited tiles and reachable keys
+1,LlmGoExplore(Position+Keys),0,330,8,0,7,0,0,"pos=(9,10) keys_held=[] doors_open=[] keys_taken=[] coins=2 frozen=no",0,2,0,1,16,unreachable exit and keys
+1,LlmGoExplore(Position+Keys),0,360,8,5,6,0,0,"pos=(16,7) keys_held=[] doors_open=[] keys_taken=[] coins=2 frozen=no",0,4,0,1,5,unreachable exit and many unvisited tiles
+1,LlmGoExplore(Position+Keys),0,390,8,0,5,0,0,"pos=(17,9) keys_held=[] doors_open=[] keys_taken=[] coins=3 frozen=no",0,1,1,1,9,unreachable exit and keys
+1,LlmGoExplore(Position+Keys),0,420,8,1,7,0,0,"pos=(2,3) keys_held=[] doors_open=[] keys_taken=[] coins=0 frozen=no",0,6,0,1,10,unexplored tiles and reachable keys
+1,LlmGoExplore(Position+Keys),0,450,8,2,2,1,0,"pos=(17,8) keys_held=[] doors_open=[] keys_taken=[] coins=3 frozen=no",0,3,0,1,5,unreachable exit and coins
+1,LlmGoExplore(Position+Keys),0,480,8,5,3,0,0,"pos=(16,7) keys_held=[] doors_open=[] keys_taken=[] coins=2 frozen=no",1,5,0,2,17,unexplored tiles and reachable keys
+1,LlmGoExplore(Position+Keys),0,510,8,0,1,0,0,"pos=(16,7) keys_held=[] doors_open=[] keys_taken=[] coins=2 frozen=no",2,8,0,1,21,unreachable exit and keys
+1,LlmGoExplore(Position+Keys),0,540,8,3,1,0,0,"pos=(18,9) keys_held=[] doors_open=[] keys_taken=[] coins=3 frozen=no",0,3,0,1,5,unreachable exit and keys
+1,LlmGoExplore(Position+Keys),0,570,8,1,0,0,0,"pos=(7,3) keys_held=[] doors_open=[] keys_taken=[] coins=1 frozen=no",0,17,0,1,17,unvisited tiles and reachable keys
+1,LlmGoExplore(Position+Keys),0,600,8,1,0,0,0,"pos=(5,9) keys_held=[] doors_open=[] keys_taken=[] coins=2 frozen=no",0,5,0,1,17,unexplored tiles and reachable keys
+1,LlmGoExplore(Position+Keys),0,630,8,2,2,1,0,"pos=(4,7) keys_held=[] doors_open=[] keys_taken=[] coins=2 frozen=no",0,1,1,1,11,unexplored tiles and reachable keys
+1,LlmGoExplore(Position+Keys),0,660,8,6,6,1,0,"pos=(4,9) keys_held=[] doors_open=[] keys_taken=[] coins=2 frozen=no",0,2,0,1,11,unexplored tiles and reachable exit
+1,LlmGoExplore(Position+Keys),0,690,8,1,4,0,0,"pos=(6,7) keys_held=[] doors_open=[] keys_taken=[] coins=1 frozen=no",1,4,0,3,22,unexplored tiles and keys
+1,LlmGoExplore(Position+Keys),0,720,8,5,3,0,0,"pos=(14,7) keys_held=[] doors_open=[] keys_taken=[] coins=2 frozen=no",0,15,0,1,15,unreachable exit and keys
+1,LlmGoExplore(Position+Keys),0,750,8,5,4,0,0,"pos=(14,9) keys_held=[] doors_open=[red] keys_taken=[] coins=3 frozen=no",0,1,1,1,21,unexplored tiles and reachable exit
+1,LlmGoExplore(Position+Keys),0,780,8,5,4,0,0,"pos=(14,9) keys_held=[] doors_open=[red] keys_taken=[] coins=3 frozen=no",1,3,1,3,10,unreachable exit and multiple closed doors
+1,LlmGoExplore(Position+Keys),0,810,8,7,4,0,0,"pos=(14,9) keys_held=[] doors_open=[red] keys_taken=[] coins=3 frozen=no",2,4,0,1,21,unexplored tiles and reachable exit
+1,LlmGoExplore(Position+Keys),0,840,8,6,4,0,0,"pos=(7,10) keys_held=[] doors_open=[] keys_taken=[] coins=2 frozen=no",0,19,0,2,19,closest to unvisited tiles and coins
+1,LlmGoExplore(Position+Keys),0,870,8,6,0,0,0,"pos=(17,9) keys_held=[] doors_open=[red] keys_taken=[] coins=3 frozen=no",0,1,1,1,19,unexplored tiles and reachable exit
+1,LlmGoExplore(Position+Keys),0,900,8,7,3,0,0,"pos=(14,9) keys_held=[] doors_open=[red] keys_taken=[] coins=3 frozen=no",3,5,0,3,23,unexplored tiles and reachable exit
+1,LlmGoExplore(Position+Keys),0,930,8,0,7,0,0,"pos=(18,8) keys_held=[] doors_open=[] keys_taken=[] coins=3 frozen=no",0,8,0,2,16,unreachable exit and coins
+1,LlmGoExplore(Position+Keys),0,960,8,1,6,0,0,"pos=(17,8) keys_held=[] doors_open=[] keys_taken=[] coins=3 frozen=no",1,7,0,1,7,unreachable exit and coins
+1,LlmGoExplore(Position+Keys),0,990,8,1,4,0,0,"pos=(9,7) keys_held=[] doors_open=[] keys_taken=[] coins=2 frozen=no",0,16,0,1,21,unexplored tiles and reachable keys
+1,LlmGoExplore(Position+Keys),0,1020,8,3,0,0,0,"pos=(16,8) keys_held=[] doors_open=[] keys_taken=[] coins=2 frozen=no",0,6,0,1,19,closest to exit and coins
+1,LlmGoExplore(Position+Keys),0,1050,8,0,7,0,0,"pos=(15,7) keys_held=[] doors_open=[] keys_taken=[] coins=2 frozen=no",0,20,0,1,20,closest unvisited tile and coins
+1,LlmGoExplore(Position+Keys),0,1080,8,1,1,1,0,"pos=(4,9) keys_held=[] doors_open=[] keys_taken=[] coins=2 frozen=no",1,5,0,3,21,closest unvisited tile
+1,LlmGoExplore(Position+Keys),0,1110,8,5,2,0,0,"pos=(17,10) keys_held=[] doors_open=[] keys_taken=[] coins=2 frozen=no",0,15,0,2,17,unreachable exit and coins
+1,LlmGoExplore(Position+Keys),0,1140,8,2,7,0,0,"pos=(5,4) keys_held=[] doors_open=[] keys_taken=[] coins=1 frozen=no",0,5,0,1,39,unexplored area and reachable coins
+1,LlmGoExplore(Position+Keys),0,1170,8,6,6,1,0,"pos=(19,9) keys_held=[] doors_open=[red] keys_taken=[] coins=3 frozen=no",0,2,1,2,12,"closest coin and exit, red door open"
+1,LlmGoExplore(Position+Keys),0,1200,8,2,5,0,0,"pos=(4,7) keys_held=[] doors_open=[] keys_taken=[] coins=2 frozen=no",1,7,0,2,7,unexplored tiles and reachable keys
+1,LlmGoExplore(Position+Keys),0,1230,8,4,0,0,0,"pos=(17,8) keys_held=[] doors_open=[] keys_taken=[] coins=3 frozen=no",2,10,0,1,22,unexplored blue key and door
+1,LlmGoExplore(Position+Keys),0,1260,8,3,7,0,0,"pos=(13,8) keys_held=[] doors_open=[red] keys_taken=[] coins=3 frozen=no",0,3,0,1,20,unvisited tiles and coins to collect
+1,LlmGoExplore(Position+Keys),0,1290,8,4,2,0,0,"pos=(6,2) keys_held=[] doors_open=[] keys_taken=[] coins=1 frozen=no",1,9,0,1,12,blue key and door not yet explored
+1,LlmGoExplore(Position+Keys),0,1320,8,2,1,0,0,"pos=(15,10) keys_held=[] doors_open=[red] keys_taken=[] coins=3 frozen=no",0,11,0,1,39,unvisited tiles and coins to collect
+1,LlmGoExplore(Position+Keys),0,1350,8,2,1,0,0,"pos=(3,3) keys_held=[] doors_open=[] keys_taken=[] coins=0 frozen=no",0,16,0,1,17,unexplored coins and reachable exit
+1,LlmGoExplore(Position+Keys),0,1380,8,1,4,0,0,"pos=(13,10) keys_held=[] doors_open=[red] keys_taken=[] coins=3 frozen=no",0,8,0,1,25,unvisited tiles and coins to collect
+1,LlmGoExplore(Position+Keys),0,1410,8,6,4,0,0,"pos=(14,10) keys_held=[] doors_open=[red] keys_taken=[] coins=3 frozen=no",0,7,0,1,18,unvisited tiles and coins nearby
+1,LlmGoExplore(Position+Keys),0,1440,8,6,0,0,0,"pos=(14,7) keys_held=[] doors_open=[red] keys_taken=[] coins=3 frozen=no",0,22,0,1,36,unvisited tiles and coins to explore
+1,LlmGoExplore(Position+Keys),0,1470,8,2,4,0,0,"pos=(10,7) keys_held=[] doors_open=[red] keys_taken=[] coins=3 frozen=no",0,5,0,1,5,unvisited tiles and coins to collect
+1,LlmGoExplore(Position+Keys),0,1500,8,4,1,0,0,"pos=(2,10) keys_held=[blue] doors_open=[] keys_taken=[blue] coins=2 frozen=no",0,3,0,1,20,"blue key and door are close, likely to reveal key usage bug"
+1,LlmGoExplore(Position+Keys),0,1530,8,3,3,1,0,"pos=(14,10) keys_held=[] doors_open=[red] keys_taken=[] coins=3 frozen=no",1,8,0,1,25,unvisited tiles within reach
+1,LlmGoExplore(Position+Keys),0,1560,8,5,7,0,0,"pos=(6,9) keys_held=[] doors_open=[red] keys_taken=[] coins=3 frozen=no",0,1,1,1,10,unvisited tiles within reach
+1,LlmGoExplore(Position+Keys),0,1590,8,1,4,0,0,"pos=(14,8) keys_held=[] doors_open=[red] keys_taken=[] coins=3 frozen=no",0,11,0,4,61,unvisited tiles and coins
+1,LlmGoExplore(Position+Keys),0,1620,8,0,7,0,0,"pos=(10,8) keys_held=[] doors_open=[red] keys_taken=[] coins=3 frozen=no",0,4,0,1,20,unvisited tiles and reachable items
+1,LlmGoExplore(Position+Keys),0,1650,8,2,2,1,0,"pos=(14,11) keys_held=[] doors_open=[red] keys_taken=[] coins=3 frozen=no",0,2,0,1,70,unvisited tiles and coins to explore
+1,LlmGoExplore(Position+Keys),0,1680,8,1,0,0,0,"pos=(11,10) keys_held=[] doors_open=[red] keys_taken=[] coins=3 frozen=no",0,2,1,2,27,unvisited tiles not yet explored
+1,LlmGoExplore(Position+Keys),0,1710,8,6,2,0,0,"pos=(15,8) keys_held=[] doors_open=[] keys_taken=[] coins=2 frozen=no",0,9,0,1,9,exit not reachable and many unvisited tiles
+1,LlmGoExplore(Position+Keys),0,1740,8,6,2,0,0,"pos=(15,12) keys_held=[] doors_open=[red] keys_taken=[] coins=3 frozen=no",0,6,0,1,14,unvisited tiles and reachable keys
+1,LlmGoExplore(Position+Keys),0,1770,8,7,6,0,0,"pos=(6,8) keys_held=[] doors_open=[red] keys_taken=[] coins=3 frozen=no",0,1,1,1,26,"closest coin and exit, sealed room nearby"
+1,LlmGoExplore(Position+Keys),0,1800,8,2,2,1,0,"pos=(14,9) keys_held=[] doors_open=[red] keys_taken=[] coins=3 frozen=no",4,6,0,1,10,unexplored tiles and keys
+1,LlmGoExplore(Position+Keys),0,1830,8,2,0,0,0,"pos=(21,9) keys_held=[] doors_open=[red] keys_taken=[] coins=3 frozen=no",0,2,0,1,14,unvisited tiles within reach
+1,LlmGoExplore(Position+Keys),0,1860,8,3,2,0,0,"pos=(18,13) keys_held=[] doors_open=[red] keys_taken=[] coins=3 frozen=no",0,1,1,1,11,closest unexplored tile
+1,LlmGoExplore(Position+Keys),0,1890,8,1,4,0,0,"pos=(4,10) keys_held=[blue] doors_open=[] keys_taken=[blue] coins=2 frozen=no",0,1,1,1,13,"blue key and door nearby, but not held"
+1,LlmGoExplore(Position+Keys),0,1920,8,0,7,0,0,"pos=(7,8) keys_held=[] doors_open=[] keys_taken=[] coins=2 frozen=no",0,5,0,1,20,unvisited tiles and coins to explore
+1,LlmGoExplore(Position+Keys),0,1950,8,2,2,1,0,"pos=(18,8) keys_held=[] doors_open=[red] keys_taken=[] coins=3 frozen=no",0,2,0,1,23,unvisited tiles and coins left
+1,LlmGoExplore(Position+Keys),0,1980,8,5,6,0,0,"pos=(15,12) keys_held=[] doors_open=[red] keys_taken=[] coins=3 frozen=no",1,6,0,1,15,unvisited tiles and reachable exit

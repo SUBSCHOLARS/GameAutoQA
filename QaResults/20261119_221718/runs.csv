@@ -1,0 +1,2 @@
+﻿run_id,agent,seed,bug_mode,enabled,enabled_count,budget,total_ms,detected,final_coverage,unintended_tiles,archive_cells,episodes,llm_calls,llm_fallbacks,llm_ms
+1,LlmGoExplore(Position+Keys),0,all,R1+R2+S1+S2+C1+C2+H1+H2,8,2000,967124.441,3,0.827,2,222,2,66,0,966934.319

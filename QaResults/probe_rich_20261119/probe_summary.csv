@@ -1,0 +1,3 @@
+variant,items,same_candidate_all3,same_position_all3,pick_min_seen,pick_max_unvisited,same_candidate_pairs,same_position_pairs,parse_fail,pos_hist_permute,pos_hist_blank
+baseline,40,6,0,26/120,67/120 (chance 39.8),36/120,11/120,0,0:21 1:16 2:17 3:18 4:7 5:15 6:15 7:11,0:0 1:0 2:0 3:0 4:0 5:0 6:0 7:0
+strip,40,2,0,34/120,37/120 (chance 39.8),23/120,20/120,0,0:5 1:8 2:30 3:9 4:5 5:14 6:24 7:25,0:0 1:0 2:0 3:0 4:0 5:0 6:0 7:0

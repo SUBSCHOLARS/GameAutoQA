@@ -1,0 +1,397 @@
+﻿run_id,agent,seed,step,candidates,choice,rule_index,picked_rule_choice,fallback,chosen_state,chosen_times_chosen,chosen_times_seen,picked_min_seen,min_seen,max_seen,reason
+1,LlmGoExplore(Position+Keys),0,30,7,6,1,0,0,"pos=(2,2) keys_held=[] doors_open=[] keys_taken=[] coins=0 frozen=no",1,9,0,1,9,High seen count and close to start
+1,LlmGoExplore(Position+Keys),0,60,8,3,7,0,0,"pos=(10,7) keys_held=[green] doors_open=[] keys_taken=[] coins=1 frozen=no",0,1,1,1,6,Unexplored area with a key and coin
+1,LlmGoExplore(Position+Keys),0,90,8,1,5,0,0,"pos=(2,2) keys_held=[] doors_open=[] keys_taken=[] coins=0 frozen=no",2,14,0,1,14,Unexplored sealed room and exit
+1,LlmGoExplore(Position+Keys),0,120,8,3,4,0,0,"pos=(10,7) keys_held=[green] doors_open=[] keys_taken=[] coins=1 frozen=no",1,2,0,1,25,Unexplored state with green key
+1,LlmGoExplore(Position+Keys),0,150,8,6,6,1,0,"pos=(7,3) keys_held=[green] doors_open=[] keys_taken=[green] coins=0 frozen=no",0,2,0,1,10,Unopened sealed room and potential key interaction
+1,LlmGoExplore(Position+Keys),0,180,8,6,0,0,0,"pos=(6,2) keys_held=[] doors_open=[] keys_taken=[] coins=1 frozen=no",0,1,1,1,18,Unexplored area with a coin
+1,LlmGoExplore(Position+Keys),0,210,8,6,1,0,0,"pos=(7,3) keys_held=[green] doors_open=[] keys_taken=[green] coins=0 frozen=no",1,18,0,1,18,high seen count and held green key
+1,LlmGoExplore(Position+Keys),0,240,8,7,7,1,0,"pos=(5,10) keys_held=[] doors_open=[] keys_taken=[] coins=1 frozen=no",0,1,1,1,6,Exploring the sealed room and exit area
+1,LlmGoExplore(Position+Keys),0,270,8,4,1,0,0,"pos=(7,10) keys_held=[] doors_open=[] keys_taken=[] coins=1 frozen=no",0,2,0,1,17,Unexplored area with potential bugs
+1,LlmGoExplore(Position+Keys),0,300,8,1,6,0,0,"pos=(2,3) keys_held=[] doors_open=[] keys_taken=[] coins=0 frozen=no",0,17,0,1,17,Unexplored area with potential bugs
+1,LlmGoExplore(Position+Keys),0,330,8,7,7,1,0,"pos=(3,2) keys_held=[] doors_open=[] keys_taken=[] coins=0 frozen=no",0,12,0,1,17,Unexplored area with potential for bugs
+1,LlmGoExplore(Position+Keys),0,360,8,7,6,0,0,"pos=(4,3) keys_held=[green] doors_open=[] keys_taken=[green] coins=0 frozen=no",0,15,0,1,15,Sealed room and coin interaction
+1,LlmGoExplore(Position+Keys),0,390,8,3,5,0,0,"pos=(8,8) keys_held=[green] doors_open=[] keys_taken=[] coins=1 frozen=no",0,4,0,1,6,"The exit is located at (8,8) and this state is close to it, making it likely to reveal a bug related to reaching the exit."
+1,LlmGoExplore(Position+Keys),0,420,8,2,7,0,0,"pos=(3,10) keys_held=[] doors_open=[] keys_taken=[] coins=1 frozen=no",0,5,0,1,13,Unexplored area with a coin
+1,LlmGoExplore(Position+Keys),0,450,8,7,2,0,0,"pos=(2,9) keys_held=[] doors_open=[] keys_taken=[] coins=1 frozen=no",0,1,1,1,6,Unexplored sealed room and exit
+1,LlmGoExplore(Position+Keys),0,480,8,1,3,0,0,"pos=(11,7) keys_held=[green] doors_open=[] keys_taken=[] coins=1 frozen=no",0,3,1,3,15,Unexplored area with potential for bugs
+1,LlmGoExplore(Position+Keys),0,510,8,4,1,0,0,"pos=(6,10) keys_held=[] doors_open=[] keys_taken=[] coins=1 frozen=no",0,8,0,2,8,high seen count and no keys or coins
+1,LlmGoExplore(Position+Keys),0,540,8,6,1,0,0,"pos=(7,3) keys_held=[green] doors_open=[] keys_taken=[green] coins=0 frozen=no",2,31,0,1,31,explores the sealed room
+1,LlmGoExplore(Position+Keys),0,570,8,7,0,0,0,"pos=(9,9) keys_held=[green] doors_open=[] keys_taken=[] coins=1 frozen=no",0,1,1,1,18,Unopened sealed room and no coins left
+1,LlmGoExplore(Position+Keys),0,600,8,7,0,0,0,"pos=(7,2) keys_held=[green] doors_open=[] keys_taken=[green] coins=1 frozen=no",0,12,0,1,12,Exploring the sealed room and exit
+1,LlmGoExplore(Position+Keys),0,630,8,7,2,0,0,"pos=(7,7) keys_held=[] doors_open=[] keys_taken=[] coins=2 frozen=no",0,2,0,1,13,Unexplored area with coins and potential for new situations
+1,LlmGoExplore(Position+Keys),0,660,8,2,6,0,0,"pos=(5,10) keys_held=[] doors_open=[] keys_taken=[] coins=1 frozen=no",1,8,0,1,20,Unexplored area with potential for bugs
+1,LlmGoExplore(Position+Keys),0,690,8,3,4,0,0,"pos=(2,7) keys_held=[] doors_open=[] keys_taken=[] coins=1 frozen=no",0,20,0,1,20,Unexplored state with a coin
+1,LlmGoExplore(Position+Keys),0,720,8,7,3,0,0,"pos=(5,2) keys_held=[green] doors_open=[] keys_taken=[green] coins=1 frozen=no",0,5,0,1,21,Unopened sealed room and potential key interaction
+1,LlmGoExplore(Position+Keys),0,750,8,7,4,0,0,"pos=(0,9) keys_held=[] doors_open=[] keys_taken=[] coins=1 frozen=no",0,3,0,1,26,Unexplored area with potential for bugs
+1,LlmGoExplore(Position+Keys),0,780,8,7,4,0,0,"pos=(1,9) keys_held=[] doors_open=[] keys_taken=[] coins=1 frozen=no",0,3,0,2,12,High seen value and no coins
+1,LlmGoExplore(Position+Keys),0,810,8,7,4,0,0,"pos=(9,10) keys_held=[] doors_open=[] keys_taken=[] coins=1 frozen=no",0,6,0,1,6,Unexplored area with a coin and potential for key interactions
+1,LlmGoExplore(Position+Keys),0,840,8,7,4,0,0,"pos=(10,7) keys_held=[green] doors_open=[] keys_taken=[] coins=1 frozen=no",2,7,0,1,13,Unopened sealed room and potential key
+1,LlmGoExplore(Position+Keys),0,870,8,3,0,0,0,"pos=(5,2) keys_held=[] doors_open=[] keys_taken=[] coins=0 frozen=no",0,10,0,1,10,Unexplored area with a coin
+1,LlmGoExplore(Position+Keys),0,900,8,7,3,0,0,"pos=(13,8) keys_held=[green] doors_open=[] keys_taken=[] coins=1 frozen=no",0,4,0,1,21,Unexplored area with potential for bugs
+1,LlmGoExplore(Position+Keys),0,930,8,7,7,1,0,"pos=(7,3) keys_held=[green] doors_open=[] keys_taken=[green] coins=0 frozen=no",3,39,0,1,39,Exploring the sealed room and exit
+1,LlmGoExplore(Position+Keys),0,960,8,5,6,0,0,"pos=(4,3) keys_held=[green] doors_open=[] keys_taken=[green] coins=0 frozen=no",1,24,0,1,24,high seen count and no keys or coins
+1,LlmGoExplore(Position+Keys),0,990,8,2,4,0,0,"pos=(14,10) keys_held=[green] doors_open=[] keys_taken=[] coins=1 frozen=no",0,1,1,1,28,Unexplored area with potential bugs
+1,LlmGoExplore(Position+Keys),0,1020,8,6,0,0,0,"pos=(8,8) keys_held=[] doors_open=[] keys_taken=[] coins=2 frozen=no",0,4,0,2,10,Unexplored area with coins and potential for key interaction
+1,LlmGoExplore(Position+Keys),0,1050,8,5,7,0,0,"pos=(2,9) keys_held=[] doors_open=[] keys_taken=[] coins=1 frozen=no",1,8,0,1,16,Unopened sealed room and potential for exploring new areas
+1,LlmGoExplore(Position+Keys),0,1080,8,7,1,0,0,"pos=(12,9) keys_held=[] doors_open=[] keys_taken=[] coins=1 frozen=yes",0,10,0,1,57,Unexplored sealed room
+1,LlmGoExplore(Position+Keys),0,1110,8,2,2,1,0,"pos=(9,7) keys_held=[green] doors_open=[] keys_taken=[] coins=1 frozen=no",0,11,0,2,11,High seen count and held green key suggest potential door interaction issues
+1,LlmGoExplore(Position+Keys),0,1140,8,0,7,0,0,"pos=(14,10) keys_held=[green] doors_open=[red] keys_taken=[] coins=1 frozen=no",0,1,1,1,18,Unopened red door with green key
+1,LlmGoExplore(Position+Keys),0,1170,8,6,6,1,0,"pos=(13,7) keys_held=[green] doors_open=[] keys_taken=[] coins=1 frozen=no",0,20,0,1,38,Unexplored sealed room and exit
+1,LlmGoExplore(Position+Keys),0,1200,8,2,5,0,0,"pos=(2,8) keys_held=[] doors_open=[] keys_taken=[] coins=1 frozen=no",0,18,0,1,18,Unexplored area with potential for bugs
+1,LlmGoExplore(Position+Keys),0,1230,8,5,0,0,0,"pos=(3,2) keys_held=[] doors_open=[] keys_taken=[] coins=0 frozen=no",1,13,0,1,13,Unopened sealed room and potential for exploring new areas
+1,LlmGoExplore(Position+Keys),0,1260,8,6,7,0,0,"pos=(2,10) keys_held=[] doors_open=[] keys_taken=[] coins=1 frozen=no",0,47,0,1,47,Unexplored area with potential for bugs
+1,LlmGoExplore(Position+Keys),0,1290,8,1,2,0,0,"pos=(9,9) keys_held=[green] doors_open=[red] keys_taken=[] coins=1 frozen=no",0,1,1,1,8,Unopened red door with green key
+1,LlmGoExplore(Position+Keys),0,1320,8,7,1,0,0,"pos=(10,7) keys_held=[] doors_open=[] keys_taken=[] coins=2 frozen=no",0,5,0,1,17,Unexplored area with potential for new situations
+1,LlmGoExplore(Position+Keys),0,1350,8,2,1,0,0,"pos=(12,8) keys_held=[] doors_open=[] keys_taken=[] coins=1 frozen=no",0,1,1,1,19,Unexplored position with key and coin
+1,LlmGoExplore(Position+Keys),0,1380,8,6,4,0,0,"pos=(14,7) keys_held=[green] doors_open=[red] keys_taken=[] coins=1 frozen=no",0,7,0,1,23,Unopened red door
+1,LlmGoExplore(Position+Keys),0,1410,8,5,4,0,0,"pos=(17,8) keys_held=[green] doors_open=[red] keys_taken=[] coins=2 frozen=no",0,1,1,1,12,likely to reveal a door bug
+1,LlmGoExplore(Position+Keys),0,1440,8,7,0,0,0,"pos=(10,8) keys_held=[] doors_open=[] keys_taken=[] coins=2 frozen=no",0,1,1,1,10,Unopened sealed room and no keys
+1,LlmGoExplore(Position+Keys),0,1470,8,7,4,0,0,"pos=(9,7) keys_held=[green] doors_open=[red] keys_taken=[] coins=2 frozen=no",0,4,0,2,19,Unexplored area with potential for bugs
+1,LlmGoExplore(Position+Keys),0,1500,8,5,1,0,0,"pos=(10,9) keys_held=[green] doors_open=[red] keys_taken=[] coins=1 frozen=no",0,3,0,1,5,Unopened red door with green key
+1,LlmGoExplore(Position+Keys),0,1530,8,6,3,0,0,"pos=(3,10) keys_held=[] doors_open=[] keys_taken=[] coins=1 frozen=no",1,9,0,1,11,Unexplored area with potential for bugs
+1,LlmGoExplore(Position+Keys),0,1560,8,6,7,0,0,"pos=(5,2) keys_held=[] doors_open=[] keys_taken=[] coins=0 frozen=no",1,14,0,1,14,Unexplored area with potential for bugs
+1,LlmGoExplore(Position+Keys),0,1590,8,7,4,0,0,"pos=(3,2) keys_held=[] doors_open=[] keys_taken=[] coins=0 frozen=no",2,13,0,1,13,Unopened sealed room and no keys
+1,LlmGoExplore(Position+Keys),0,1620,8,2,7,0,0,"pos=(6,3) keys_held=[green] doors_open=[] keys_taken=[green] coins=0 frozen=no",0,29,0,1,29,sealed room with coins and keys
+1,LlmGoExplore(Position+Keys),0,1650,8,7,2,0,0,"pos=(13,7) keys_held=[green] doors_open=[red] keys_taken=[] coins=1 frozen=no",0,7,0,1,14,Unopened red door with held green key
+1,LlmGoExplore(Position+Keys),0,1680,8,6,0,0,0,"pos=(19,13) keys_held=[green] doors_open=[red] keys_taken=[] coins=1 frozen=no",0,9,0,1,9,Unexplored area with potential for bugs
+1,LlmGoExplore(Position+Keys),0,1710,8,5,2,0,0,"pos=(1,9) keys_held=[] doors_open=[] keys_taken=[] coins=1 frozen=no",1,11,0,1,53,High frequency of selection and unexplored coins
+1,LlmGoExplore(Position+Keys),0,1740,8,7,2,0,0,"pos=(9,10) keys_held=[] doors_open=[] keys_taken=[] coins=1 frozen=no",1,15,0,1,15,High seen count and no keys or coins
+1,LlmGoExplore(Position+Keys),0,1770,8,6,6,1,0,"pos=(17,13) keys_held=[green] doors_open=[red] keys_taken=[] coins=1 frozen=no",0,1,1,1,53,Unexplored position with held key
+1,LlmGoExplore(Position+Keys),0,1800,8,2,2,1,0,"pos=(11,8) keys_held=[] doors_open=[] keys_taken=[] coins=1 frozen=no",0,2,0,1,14,Unexplored area with potential for new situations
+1,LlmGoExplore(Position+Keys),0,1830,8,7,0,0,0,"pos=(7,9) keys_held=[green] doors_open=[red] keys_taken=[] coins=2 frozen=no",0,1,1,1,11,Unexplored area with potential for bugs
+1,LlmGoExplore(Position+Keys),0,1860,8,7,2,0,0,"pos=(2,3) keys_held=[green] doors_open=[] keys_taken=[green] coins=0 frozen=no",0,11,0,2,11,Unopened green door and missing green key
+1,LlmGoExplore(Position+Keys),0,1890,8,7,4,0,0,"pos=(19,10) keys_held=[green] doors_open=[red] keys_taken=[] coins=2 frozen=no",0,12,0,1,12,high seen count and unexplored state
+1,LlmGoExplore(Position+Keys),0,1920,8,2,7,0,0,"pos=(14,8) keys_held=[] doors_open=[] keys_taken=[] coins=1 frozen=no",0,1,1,1,7,Exploring the sealed room and exit area
+1,LlmGoExplore(Position+Keys),0,1950,8,4,2,0,0,"pos=(13,8) keys_held=[] doors_open=[] keys_taken=[] coins=1 frozen=no",0,1,1,1,24,Unexplored state with coins
+1,LlmGoExplore(Position+Keys),0,1980,8,2,6,0,0,"pos=(5,10) keys_held=[blue] doors_open=[] keys_taken=[blue] coins=1 frozen=no",0,1,1,1,16,Unexplored state with blue key
+2,LlmGoExplore(Position+Keys),1,30,8,6,7,0,0,"pos=(2,2) keys_held=[] doors_open=[] keys_taken=[] coins=0 frozen=no",1,2,0,1,9,Close to the start and has a coin
+2,LlmGoExplore(Position+Keys),1,60,8,6,0,0,0,"pos=(2,3) keys_held=[] doors_open=[] keys_taken=[] coins=0 frozen=no",0,18,0,1,18,Unopened sealed room and potential for finding a bug
+2,LlmGoExplore(Position+Keys),1,90,8,2,0,0,0,"pos=(3,3) keys_held=[] doors_open=[] keys_taken=[] coins=0 frozen=no",0,1,1,1,8,Unexplored state with a coin
+2,LlmGoExplore(Position+Keys),1,120,8,5,6,0,0,"pos=(5,5) keys_held=[green] doors_open=[] keys_taken=[] coins=0 frozen=no",0,1,1,1,14,Unopened sealed room and potential key interaction
+2,LlmGoExplore(Position+Keys),1,150,8,3,4,0,0,"pos=(6,2) keys_held=[] doors_open=[] keys_taken=[] coins=1 frozen=no",0,4,0,2,15,Unexplored area with a coin
+2,LlmGoExplore(Position+Keys),1,180,8,7,3,0,0,"pos=(2,3) keys_held=[green] doors_open=[] keys_taken=[green] coins=1 frozen=no",0,7,0,2,14,Unexplored state with a coin and key
+2,LlmGoExplore(Position+Keys),1,210,8,7,5,0,0,"pos=(3,2) keys_held=[] doors_open=[] keys_taken=[] coins=0 frozen=no",0,11,0,2,23,Unexplored area with potential for bugs
+2,LlmGoExplore(Position+Keys),1,240,8,4,1,0,0,"pos=(4,3) keys_held=[green] doors_open=[] keys_taken=[green] coins=0 frozen=no",0,3,0,1,15,Unopened green door with held green key
+2,LlmGoExplore(Position+Keys),1,270,8,5,2,0,0,"pos=(7,3) keys_held=[] doors_open=[] keys_taken=[] coins=1 frozen=no",0,20,0,1,20,Unexplored area with a coin
+2,LlmGoExplore(Position+Keys),1,300,8,3,7,0,0,"pos=(6,3) keys_held=[] doors_open=[] keys_taken=[] coins=1 frozen=no",0,12,0,2,12,Unexplored area with a coin
+2,LlmGoExplore(Position+Keys),1,330,8,6,5,0,0,"pos=(5,3) keys_held=[] doors_open=[] keys_taken=[] coins=1 frozen=no",0,9,0,3,23,Unexplored area with coins and potential for finding bugs
+2,LlmGoExplore(Position+Keys),1,360,8,4,1,0,0,"pos=(5,2) keys_held=[green] doors_open=[] keys_taken=[] coins=0 frozen=no",0,17,0,1,17,high seen count and held green key
+2,LlmGoExplore(Position+Keys),1,390,8,7,5,0,0,"pos=(6,2) keys_held=[] doors_open=[] keys_taken=[] coins=1 frozen=no",1,9,0,2,37,Unexplored area with potential for bugs
+2,LlmGoExplore(Position+Keys),1,420,8,4,3,0,0,"pos=(5,9) keys_held=[green] doors_open=[] keys_taken=[] coins=0 frozen=no",0,3,1,3,27,Unexplored area with potential for bugs
+2,LlmGoExplore(Position+Keys),1,450,8,2,6,0,0,"pos=(9,9) keys_held=[green] doors_open=[] keys_taken=[] coins=0 frozen=no",0,1,1,1,23,Unexplored area with potential coins and exit
+2,LlmGoExplore(Position+Keys),1,480,8,2,4,0,0,"pos=(7,3) keys_held=[] doors_open=[] keys_taken=[] coins=1 frozen=no",1,37,0,1,37,Unexplored area with a coin
+2,LlmGoExplore(Position+Keys),1,510,8,3,5,0,0,"pos=(11,9) keys_held=[green] doors_open=[] keys_taken=[] coins=0 frozen=no",0,1,1,1,43,Unexplored sealed room and exit
+2,LlmGoExplore(Position+Keys),1,540,8,7,4,0,0,"pos=(5,9) keys_held=[] doors_open=[] keys_taken=[] coins=1 frozen=no",0,1,1,1,50,Unexplored state with a coin
+2,LlmGoExplore(Position+Keys),1,570,8,2,1,0,0,"pos=(12,9) keys_held=[green] doors_open=[] keys_taken=[] coins=0 frozen=yes",0,50,0,1,50,Unexplored sealed room and exit
+2,LlmGoExplore(Position+Keys),1,600,8,1,2,0,0,"pos=(3,3) keys_held=[green] doors_open=[] keys_taken=[green] coins=1 frozen=no",0,14,0,1,19,The state with the most seen times and held green key is likely to reveal a bug related to key usage or door interaction.
+2,LlmGoExplore(Position+Keys),1,630,8,3,4,0,0,"pos=(7,7) keys_held=[] doors_open=[] keys_taken=[] coins=2 frozen=no",0,1,1,1,18,Unexplored area with potential for bugs
+2,LlmGoExplore(Position+Keys),1,660,8,1,6,0,0,"pos=(8,9) keys_held=[] doors_open=[] keys_taken=[] coins=2 frozen=no",0,2,0,1,23,Unexplored area with potential for bugs
+2,LlmGoExplore(Position+Keys),1,690,8,5,7,0,0,"pos=(9,9) keys_held=[] doors_open=[] keys_taken=[] coins=2 frozen=no",0,3,0,1,28,Unexplored area with coins
+2,LlmGoExplore(Position+Keys),1,720,8,6,1,0,0,"pos=(7,7) keys_held=[] doors_open=[] keys_taken=[] coins=2 frozen=no",1,1,1,1,80,The sealed room is unexplored and could contain bugs.
+2,LlmGoExplore(Position+Keys),1,750,8,2,2,1,0,"pos=(9,10) keys_held=[green] doors_open=[] keys_taken=[] coins=0 frozen=no",0,1,1,1,62,Unexplored state with coins
+2,LlmGoExplore(Position+Keys),1,780,8,6,1,0,0,"pos=(6,7) keys_held=[green] doors_open=[] keys_taken=[] coins=1 frozen=no",0,1,1,1,26,Unopened sealed room and potential for exploring new areas
+2,LlmGoExplore(Position+Keys),1,810,8,7,7,1,0,"pos=(5,2) keys_held=[] doors_open=[] keys_taken=[] coins=0 frozen=no",0,26,0,1,26,Unexplored area with potential for bugs
+2,LlmGoExplore(Position+Keys),1,840,8,2,1,0,0,"pos=(4,9) keys_held=[] doors_open=[] keys_taken=[] coins=2 frozen=no",0,1,1,1,25,Unexplored area with potential for bugs
+2,LlmGoExplore(Position+Keys),1,870,8,7,1,0,0,"pos=(5,4) keys_held=[green] doors_open=[] keys_taken=[] coins=0 frozen=no",0,15,0,1,15,Unexplored area with potential for bugs
+2,LlmGoExplore(Position+Keys),1,900,8,2,6,0,0,"pos=(10,8) keys_held=[] doors_open=[] keys_taken=[] coins=2 frozen=no",0,1,1,1,28,Unexplored area with potential for new situations
+2,LlmGoExplore(Position+Keys),1,930,8,6,0,0,0,"pos=(2,2) keys_held=[green] doors_open=[] keys_taken=[green] coins=1 frozen=no",0,23,0,1,23,Most coins and keys not yet seen
+2,LlmGoExplore(Position+Keys),1,960,8,1,0,0,0,"pos=(8,7) keys_held=[] doors_open=[] keys_taken=[] coins=2 frozen=no",0,3,0,1,8,Unexplored area with coins and keys
+2,LlmGoExplore(Position+Keys),1,990,8,6,2,0,0,"pos=(3,2) keys_held=[] doors_open=[] keys_taken=[] coins=0 frozen=no",1,18,0,1,18,Unopened sealed room and no keys
+2,LlmGoExplore(Position+Keys),1,1020,8,6,0,0,0,"pos=(3,3) keys_held=[] doors_open=[] keys_taken=[] coins=0 frozen=no",1,3,0,1,70,Unexplored area with potential for bugs
+2,LlmGoExplore(Position+Keys),1,1050,8,2,6,0,0,"pos=(8,10) keys_held=[] doors_open=[] keys_taken=[] coins=2 frozen=no",0,1,1,1,18,Unexplored area with potential for bugs
+2,LlmGoExplore(Position+Keys),1,1080,8,2,6,0,0,"pos=(2,10) keys_held=[] doors_open=[] keys_taken=[] coins=2 frozen=no",0,2,0,1,24,Unexplored area with potential for bugs
+2,LlmGoExplore(Position+Keys),1,1110,8,2,1,0,0,"pos=(6,8) keys_held=[] doors_open=[] keys_taken=[] coins=2 frozen=no",0,2,0,1,25,Unexplored state with coins
+2,LlmGoExplore(Position+Keys),1,1140,8,3,6,0,0,"pos=(9,10) keys_held=[] doors_open=[] keys_taken=[] coins=2 frozen=no",0,17,0,1,38,Unexplored area with coins
+2,LlmGoExplore(Position+Keys),1,1170,8,7,2,0,0,"pos=(4,3) keys_held=[green] doors_open=[] keys_taken=[green] coins=0 frozen=no",1,25,0,1,25,Unopened sealed room not explored
+2,LlmGoExplore(Position+Keys),1,1200,8,6,1,0,0,"pos=(2,2) keys_held=[] doors_open=[] keys_taken=[] coins=0 frozen=no",2,16,0,1,20,Unopened sealed room and potential for exploring new areas
+2,LlmGoExplore(Position+Keys),1,1230,8,7,2,0,0,"pos=(4,7) keys_held=[] doors_open=[] keys_taken=[] coins=2 frozen=no",0,5,0,2,15,Unexplored area with potential for bugs
+2,LlmGoExplore(Position+Keys),1,1260,8,2,1,0,0,"pos=(12,9) keys_held=[] doors_open=[] keys_taken=[] coins=2 frozen=yes",0,50,0,1,50,Sealed room and unexplored area
+2,LlmGoExplore(Position+Keys),1,1290,8,2,7,0,0,"pos=(6,10) keys_held=[] doors_open=[] keys_taken=[] coins=2 frozen=no",0,3,0,1,80,Unexplored area with potential for bugs
+2,LlmGoExplore(Position+Keys),1,1320,8,5,0,0,0,"pos=(2,7) keys_held=[] doors_open=[] keys_taken=[] coins=2 frozen=no",0,30,0,1,30,unexplored area with potential for bugs
+2,LlmGoExplore(Position+Keys),1,1350,8,7,5,0,0,"pos=(3,8) keys_held=[blue] doors_open=[] keys_taken=[blue] coins=2 frozen=no",0,3,1,3,13,Unexplored sealed room and exit
+2,LlmGoExplore(Position+Keys),1,1380,8,7,1,0,0,"pos=(6,10) keys_held=[] doors_open=[] keys_taken=[] coins=2 frozen=no",1,3,0,1,11,Unopened sealed room and coins
+2,LlmGoExplore(Position+Keys),1,1410,8,6,7,0,0,"pos=(10,7) keys_held=[] doors_open=[] keys_taken=[] coins=2 frozen=no",0,9,0,1,14,Unexplored area with potential for bugs
+2,LlmGoExplore(Position+Keys),1,1440,8,1,5,0,0,"pos=(13,8) keys_held=[] doors_open=[] keys_taken=[] coins=2 frozen=no",0,1,1,1,37,Unexplored area with potential for bugs
+2,LlmGoExplore(Position+Keys),1,1470,8,6,4,0,0,"pos=(11,7) keys_held=[] doors_open=[] keys_taken=[] coins=2 frozen=no",0,3,0,1,39,Unexplored area with potential for bugs
+2,LlmGoExplore(Position+Keys),1,1500,8,7,4,0,0,"pos=(2,8) keys_held=[] doors_open=[] keys_taken=[] coins=2 frozen=no",0,6,0,1,8,Unopened sealed room and exit not yet explored
+2,LlmGoExplore(Position+Keys),1,1530,8,6,0,0,0,"pos=(11,8) keys_held=[] doors_open=[] keys_taken=[] coins=2 frozen=no",0,1,1,1,30,Unexplored area with potential for bugs
+2,LlmGoExplore(Position+Keys),1,1560,8,5,0,0,0,"pos=(7,2) keys_held=[green] doors_open=[] keys_taken=[] coins=1 frozen=no",0,14,0,1,19,Unexplored situation with blue key and coins
+2,LlmGoExplore(Position+Keys),1,1590,8,7,3,0,0,"pos=(4,11) keys_held=[] doors_open=[blue] keys_taken=[blue] coins=2 frozen=no",0,13,0,1,14,Exploring the sealed room and exit
+2,LlmGoExplore(Position+Keys),1,1620,8,7,3,0,0,"pos=(6,3) keys_held=[green] doors_open=[] keys_taken=[green] coins=0 frozen=no",0,20,0,1,39,Unexplored state with a coin
+2,LlmGoExplore(Position+Keys),1,1650,8,2,5,0,0,"pos=(9,7) keys_held=[] doors_open=[] keys_taken=[] coins=2 frozen=no",0,10,0,2,20,unexplored area with coins
+2,LlmGoExplore(Position+Keys),1,1680,8,5,3,0,0,"pos=(11,9) keys_held=[green] doors_open=[] keys_taken=[] coins=0 frozen=no",1,1,1,1,31,Unopened blue door with held blue key
+2,LlmGoExplore(Position+Keys),1,1710,8,2,2,1,0,"pos=(7,2) keys_held=[] doors_open=[] keys_taken=[] coins=1 frozen=no",0,70,0,1,70,Unexplored area with potential for bugs
+2,LlmGoExplore(Position+Keys),1,1740,8,4,7,0,0,"pos=(5,2) keys_held=[green] doors_open=[] keys_taken=[] coins=0 frozen=no",1,40,0,1,40,Unexplored state with blue key held
+2,LlmGoExplore(Position+Keys),1,1770,8,2,6,0,0,"pos=(3,8) keys_held=[green,blue] doors_open=[] keys_taken=[blue] coins=0 frozen=no",0,1,1,1,13,Unexplored position with held keys
+2,LlmGoExplore(Position+Keys),1,1800,8,3,1,0,0,"pos=(5,9) keys_held=[green,blue] doors_open=[] keys_taken=[blue] coins=0 frozen=no",0,1,1,1,41,Unexplored area with potential for new situations
+2,LlmGoExplore(Position+Keys),1,1830,8,2,6,0,0,"pos=(7,7) keys_held=[] doors_open=[] keys_taken=[] coins=2 frozen=no",2,34,0,1,34,Unexplored area with potential for bugs
+2,LlmGoExplore(Position+Keys),1,1860,8,5,3,0,0,"pos=(13,10) keys_held=[green] doors_open=[] keys_taken=[] coins=0 frozen=no",0,8,0,1,37,Unexplored area with potential for bugs
+2,LlmGoExplore(Position+Keys),1,1890,8,2,1,0,0,"pos=(2,8) keys_held=[green,blue] doors_open=[] keys_taken=[blue] coins=0 frozen=no",0,2,1,2,15,Unexplored area with potential for bugs
+2,LlmGoExplore(Position+Keys),1,1920,8,3,3,1,0,"pos=(6,8) keys_held=[] doors_open=[] keys_taken=[] coins=2 frozen=no",1,4,0,1,41,Unexplored state with coins
+2,LlmGoExplore(Position+Keys),1,1950,8,2,7,0,0,"pos=(12,8) keys_held=[] doors_open=[] keys_taken=[] coins=2 frozen=no",0,2,1,2,24,Unexplored area with keys and coins
+2,LlmGoExplore(Position+Keys),1,1980,8,6,6,1,0,"pos=(6,3) keys_held=[green] doors_open=[] keys_taken=[green] coins=0 frozen=no",1,21,0,2,21,Unexplored area with potential for bugs
+3,LlmGoExplore(Position+Keys),2,30,7,3,3,1,0,"pos=(2,2) keys_held=[] doors_open=[] keys_taken=[] coins=0 frozen=no",1,14,0,1,14,High frequency of visits and unexplored state
+3,LlmGoExplore(Position+Keys),2,60,8,5,0,0,0,"pos=(2,2) keys_held=[] doors_open=[] keys_taken=[] coins=0 frozen=no",2,23,0,2,23,Sealed room and coin not yet explored
+3,LlmGoExplore(Position+Keys),2,90,8,7,2,0,0,"pos=(7,2) keys_held=[] doors_open=[] keys_taken=[] coins=1 frozen=no",0,10,0,1,23,Unopened sealed room and potential for exploring new areas
+3,LlmGoExplore(Position+Keys),2,120,8,6,0,0,0,"pos=(3,2) keys_held=[] doors_open=[] keys_taken=[] coins=0 frozen=no",0,7,0,2,7,Exploring the sealed room and exit area
+3,LlmGoExplore(Position+Keys),2,150,8,7,4,0,0,"pos=(7,2) keys_held=[] doors_open=[] keys_taken=[] coins=1 frozen=no",1,11,0,2,23,Unexplored area with potential for bugs
+3,LlmGoExplore(Position+Keys),2,180,8,7,2,0,0,"pos=(3,3) keys_held=[] doors_open=[] keys_taken=[] coins=0 frozen=no",0,5,0,1,26,Unexplored state with a coin
+3,LlmGoExplore(Position+Keys),2,210,8,6,3,0,0,"pos=(6,3) keys_held=[] doors_open=[] keys_taken=[] coins=1 frozen=no",0,1,1,1,26,Unexplored state with a coin
+3,LlmGoExplore(Position+Keys),2,240,8,3,2,0,0,"pos=(4,3) keys_held=[green] doors_open=[] keys_taken=[green] coins=0 frozen=no",0,4,0,1,42,Unexplored state with green key
+3,LlmGoExplore(Position+Keys),2,270,8,7,0,0,0,"pos=(3,2) keys_held=[green] doors_open=[] keys_taken=[green] coins=1 frozen=no",0,1,1,1,42,Unexplored state with coin
+3,LlmGoExplore(Position+Keys),2,300,8,0,2,0,0,"pos=(3,3) keys_held=[green] doors_open=[] keys_taken=[green] coins=0 frozen=no",0,3,1,3,18,Unexplored state with green key held
+3,LlmGoExplore(Position+Keys),2,330,8,2,1,0,0,"pos=(7,2) keys_held=[] doors_open=[] keys_taken=[] coins=1 frozen=no",2,30,0,4,41,Unexplored state with held green key and coin
+3,LlmGoExplore(Position+Keys),2,360,8,3,3,1,0,"pos=(6,3) keys_held=[green] doors_open=[] keys_taken=[green] coins=0 frozen=no",0,5,1,5,52,Unexplored area with potential bugs
+3,LlmGoExplore(Position+Keys),2,390,8,7,4,0,0,"pos=(6,2) keys_held=[] doors_open=[] keys_taken=[] coins=1 frozen=no",0,4,0,3,56,Unexplored area with potential for bugs
+3,LlmGoExplore(Position+Keys),2,420,8,5,5,1,0,"pos=(7,2) keys_held=[] doors_open=[] keys_taken=[] coins=1 frozen=no",3,37,0,1,37,high seen count and no keys or coins
+3,LlmGoExplore(Position+Keys),2,450,8,4,2,0,0,"pos=(6,2) keys_held=[] doors_open=[] keys_taken=[] coins=1 frozen=no",1,12,0,1,15,High seen and no bugs found yet
+3,LlmGoExplore(Position+Keys),2,480,8,2,5,0,0,"pos=(6,2) keys_held=[green] doors_open=[] keys_taken=[green] coins=1 frozen=no",0,15,0,1,15,Unexplored state with green key
+3,LlmGoExplore(Position+Keys),2,510,8,1,0,0,0,"pos=(5,4) keys_held=[] doors_open=[] keys_taken=[] coins=1 frozen=no",0,1,1,1,19,Unexplored area with potential for bugs
+3,LlmGoExplore(Position+Keys),2,540,8,3,7,0,0,"pos=(4,9) keys_held=[blue] doors_open=[] keys_taken=[blue] coins=1 frozen=no",0,1,1,1,22,Unexplored state with a coin
+3,LlmGoExplore(Position+Keys),2,570,8,7,0,0,0,"pos=(4,2) keys_held=[green] doors_open=[] keys_taken=[green] coins=1 frozen=no",0,11,0,2,57,Unexplored state with a coin
+3,LlmGoExplore(Position+Keys),2,600,8,2,3,0,0,"pos=(3,9) keys_held=[green,blue] doors_open=[] keys_taken=[blue] coins=1 frozen=no",0,1,1,1,35,Exploring the sealed room and exit
+3,LlmGoExplore(Position+Keys),2,630,8,6,3,0,0,"pos=(7,3) keys_held=[] doors_open=[] keys_taken=[] coins=1 frozen=no",0,57,0,1,57,Unexplored area with potential for bugs
+3,LlmGoExplore(Position+Keys),2,660,8,2,5,0,0,"pos=(2,8) keys_held=[green,blue] doors_open=[] keys_taken=[blue] coins=1 frozen=no",0,1,1,1,62,Unexplored state with held keys and coins
+3,LlmGoExplore(Position+Keys),2,690,8,4,4,1,0,"pos=(7,7) keys_held=[] doors_open=[] keys_taken=[] coins=2 frozen=no",0,1,1,1,12,Exploring the sealed room and exit area
+3,LlmGoExplore(Position+Keys),2,720,8,6,5,0,0,"pos=(5,2) keys_held=[green] doors_open=[] keys_taken=[green] coins=1 frozen=no",0,13,0,1,14,Unopened sealed room not explored
+3,LlmGoExplore(Position+Keys),2,750,8,5,5,1,0,"pos=(6,10) keys_held=[green,blue] doors_open=[] keys_taken=[blue] coins=1 frozen=no",0,1,1,1,13,Unseen and potentially revealing sealed room
+3,LlmGoExplore(Position+Keys),2,780,8,2,2,1,0,"pos=(4,13) keys_held=[] doors_open=[] keys_taken=[blue] coins=2 frozen=no",0,15,0,1,15,Unexplored area with potential for bugs
+3,LlmGoExplore(Position+Keys),2,810,8,7,0,0,0,"pos=(8,9) keys_held=[] doors_open=[] keys_taken=[] coins=2 frozen=no",0,1,1,1,26,Unexplored sealed room and exit
+3,LlmGoExplore(Position+Keys),2,840,8,6,5,0,0,"pos=(3,3) keys_held=[] doors_open=[] keys_taken=[] coins=0 frozen=no",1,11,0,1,40,frequent visits and unexplored
+3,LlmGoExplore(Position+Keys),2,870,8,3,3,1,0,"pos=(3,8) keys_held=[green,blue] doors_open=[] keys_taken=[blue] coins=1 frozen=no",0,3,0,1,9,Unexplored area with keys and coins
+3,LlmGoExplore(Position+Keys),2,900,8,6,2,0,0,"pos=(13,7) keys_held=[] doors_open=[] keys_taken=[] coins=2 frozen=no",0,1,1,1,14,Unexplored area with potential for new situations
+3,LlmGoExplore(Position+Keys),2,930,8,5,7,0,0,"pos=(7,2) keys_held=[] doors_open=[] keys_taken=[] coins=1 frozen=no",4,47,0,1,47,Frequent seen and no keys held
+3,LlmGoExplore(Position+Keys),2,960,8,4,1,0,0,"pos=(7,8) keys_held=[green,blue] doors_open=[] keys_taken=[blue] coins=2 frozen=no",0,1,1,1,31,Unexplored state with multiple keys and coins
+3,LlmGoExplore(Position+Keys),2,990,8,3,1,0,0,"pos=(3,8) keys_held=[green,blue] doors_open=[] keys_taken=[blue] coins=1 frozen=no",1,3,0,1,57,Unexplored area with keys and coins
+3,LlmGoExplore(Position+Keys),2,1020,8,7,4,0,0,"pos=(4,7) keys_held=[green,blue] doors_open=[] keys_taken=[blue] coins=1 frozen=no",0,11,0,1,11,"Unopened doors and coins, high seen count"
+3,LlmGoExplore(Position+Keys),2,1050,8,2,2,1,0,"pos=(12,7) keys_held=[] doors_open=[] keys_taken=[] coins=2 frozen=no",0,2,0,1,15,Unexplored area with coins and potential for key interactions
+3,LlmGoExplore(Position+Keys),2,1080,8,3,3,1,0,"pos=(13,9) keys_held=[green,blue] doors_open=[] keys_taken=[blue] coins=1 frozen=no",0,1,1,1,15,Unexplored area with potential for bugs
+3,LlmGoExplore(Position+Keys),2,1110,8,1,3,0,0,"pos=(0,10) keys_held=[green,blue] doors_open=[] keys_taken=[blue] coins=1 frozen=no",0,2,0,1,31,Exploring the top left area not yet reached
+3,LlmGoExplore(Position+Keys),2,1140,8,7,4,0,0,"pos=(4,7) keys_held=[green] doors_open=[] keys_taken=[] coins=1 frozen=no",0,1,1,1,11,Unexplored area with potential for bugs
+3,LlmGoExplore(Position+Keys),2,1170,8,6,2,0,0,"pos=(13,8) keys_held=[] doors_open=[] keys_taken=[] coins=2 frozen=no",0,1,1,1,44,The sealed room (X) is unexplored and could contain bugs.
+3,LlmGoExplore(Position+Keys),2,1200,8,7,7,1,0,"pos=(13,9) keys_held=[] doors_open=[] keys_taken=[] coins=2 frozen=no",0,2,0,1,22,Unexplored area with potential for bugs
+3,LlmGoExplore(Position+Keys),2,1230,8,2,1,0,0,"pos=(2,3) keys_held=[] doors_open=[] keys_taken=[] coins=0 frozen=no",0,11,0,1,22,Unexplored area with potential for bugs
+3,LlmGoExplore(Position+Keys),2,1260,8,5,4,0,0,"pos=(7,7) keys_held=[green,blue] doors_open=[] keys_taken=[blue] coins=2 frozen=no",0,2,0,1,44,frozen=yes and coins=2
+3,LlmGoExplore(Position+Keys),2,1290,8,3,6,0,0,"pos=(4,7) keys_held=[] doors_open=[] keys_taken=[] coins=1 frozen=no",0,6,0,1,35,Unexplored area with potential for bugs
+3,LlmGoExplore(Position+Keys),2,1320,8,2,7,0,0,"pos=(16,8) keys_held=[] doors_open=[] keys_taken=[] coins=2 frozen=no",0,1,1,1,20,Unexplored area with potential for bugs
+3,LlmGoExplore(Position+Keys),2,1350,8,2,5,0,0,"pos=(3,2) keys_held=[] doors_open=[] keys_taken=[] coins=0 frozen=no",1,13,0,1,27,unexplored area with potential for bugs
+3,LlmGoExplore(Position+Keys),2,1380,8,6,4,0,0,"pos=(2,8) keys_held=[green,blue] doors_open=[] keys_taken=[blue] coins=1 frozen=no",1,12,0,1,12,explores the green key and coin area
+3,LlmGoExplore(Position+Keys),2,1410,8,7,2,0,0,"pos=(5,5) keys_held=[] doors_open=[] keys_taken=[] coins=1 frozen=no",0,7,0,1,7,Unexplored area with potential for new discoveries
+3,LlmGoExplore(Position+Keys),2,1440,8,4,7,0,0,"pos=(4,10) keys_held=[] doors_open=[blue] keys_taken=[blue] coins=1 frozen=no",0,1,1,1,40,Unopened blue door with held blue key
+3,LlmGoExplore(Position+Keys),2,1470,8,4,0,0,0,"pos=(6,7) keys_held=[green,blue] doors_open=[] keys_taken=[blue] coins=1 frozen=no",0,21,0,1,21,"Most coins and keys, not yet explored"
+3,LlmGoExplore(Position+Keys),2,1500,8,2,7,0,0,"pos=(14,8) keys_held=[] doors_open=[] keys_taken=[] coins=2 frozen=no",0,1,1,1,12,Unexplored sealed room and exit
+3,LlmGoExplore(Position+Keys),2,1530,8,7,3,0,0,"pos=(4,11) keys_held=[] doors_open=[blue] keys_taken=[blue] coins=1 frozen=no",0,1,1,1,27,Unopened blue door with held blue key
+3,LlmGoExplore(Position+Keys),2,1560,8,2,0,0,0,"pos=(2,9) keys_held=[green,blue] doors_open=[] keys_taken=[blue] coins=1 frozen=no",0,7,0,3,21,Exploring the sealed room and exit area
+3,LlmGoExplore(Position+Keys),2,1590,8,6,4,0,0,"pos=(2,8) keys_held=[green,blue] doors_open=[] keys_taken=[blue] coins=1 frozen=no",2,14,0,1,20,Unexplored area with potential for bugs
+3,LlmGoExplore(Position+Keys),2,1620,8,3,2,0,0,"pos=(16,9) keys_held=[] doors_open=[] keys_taken=[] coins=2 frozen=no",0,2,0,1,22,Unexplored area with coins and potential for new keys
+3,LlmGoExplore(Position+Keys),2,1650,8,2,6,0,0,"pos=(19,9) keys_held=[] doors_open=[] keys_taken=[] coins=3 frozen=no",0,2,0,1,21,Unexplored area with potential for bugs
+3,LlmGoExplore(Position+Keys),2,1680,8,2,6,0,0,"pos=(12,9) keys_held=[] doors_open=[] keys_taken=[] coins=2 frozen=yes",0,47,0,1,47,The sealed room is unexplored and could contain bugs.
+3,LlmGoExplore(Position+Keys),2,1710,8,6,6,1,0,"pos=(5,8) keys_held=[] doors_open=[] keys_taken=[] coins=1 frozen=no",0,5,0,1,21,Sealed room and coins not yet explored
+3,LlmGoExplore(Position+Keys),2,1740,8,6,2,0,0,"pos=(5,4) keys_held=[green,blue] doors_open=[] keys_taken=[blue] coins=1 frozen=no",0,5,0,1,5,Unexplored area with keys and coins
+3,LlmGoExplore(Position+Keys),2,1770,8,2,2,1,0,"pos=(5,3) keys_held=[] doors_open=[blue] keys_taken=[blue] coins=1 frozen=no",0,1,1,1,25,"Unopened blue door at (5,3) needs exploration"
+3,LlmGoExplore(Position+Keys),2,1800,8,7,6,0,0,"pos=(6,9) keys_held=[] doors_open=[blue] keys_taken=[blue] coins=1 frozen=no",0,1,1,1,8,Unopened blue door with held blue key
+3,LlmGoExplore(Position+Keys),2,1830,8,7,6,0,0,"pos=(19,7) keys_held=[] doors_open=[] keys_taken=[] coins=3 frozen=no",0,4,0,1,25,Unexplored area with potential for bugs
+3,LlmGoExplore(Position+Keys),2,1860,8,2,3,0,0,"pos=(3,2) keys_held=[] doors_open=[] keys_taken=[] coins=0 frozen=no",2,14,0,1,14,Unexplored area with keys and coins
+3,LlmGoExplore(Position+Keys),2,1890,8,2,1,0,0,"pos=(21,8) keys_held=[] doors_open=[] keys_taken=[] coins=3 frozen=no",0,3,0,1,9,Unexplored area with keys and coins
+3,LlmGoExplore(Position+Keys),2,1920,8,7,7,1,0,"pos=(9,7) keys_held=[] doors_open=[] keys_taken=[] coins=2 frozen=no",0,1,1,1,31,Unexplored area with potential for bugs
+3,LlmGoExplore(Position+Keys),2,1950,8,3,3,1,0,"pos=(3,3) keys_held=[green] doors_open=[] keys_taken=[green] coins=0 frozen=no",1,31,0,1,31,"The state with the most seen times and unfrozen, to explore new paths"
+3,LlmGoExplore(Position+Keys),2,1980,8,2,4,0,0,"pos=(19,10) keys_held=[] doors_open=[] keys_taken=[] coins=3 frozen=no",0,1,1,1,9,Unexplored area with potential coins and exit
+4,UniformGoExplore(Position+Keys),0,30,7,6,1,0,0,"pos=(2,2) keys_held=[] doors_open=[] keys_taken=[] coins=0 frozen=no",1,9,0,1,9,
+4,UniformGoExplore(Position+Keys),0,60,8,7,7,1,0,"pos=(5,6) keys_held=[green] doors_open=[] keys_taken=[] coins=0 frozen=no",0,1,1,1,6,
+4,UniformGoExplore(Position+Keys),0,90,8,2,6,0,0,"pos=(4,7) keys_held=[green] doors_open=[] keys_taken=[] coins=0 frozen=no",0,3,0,1,14,
+4,UniformGoExplore(Position+Keys),0,120,8,6,6,1,0,"pos=(6,7) keys_held=[green] doors_open=[] keys_taken=[] coins=0 frozen=no",0,5,0,1,14,
+4,UniformGoExplore(Position+Keys),0,150,8,2,5,0,0,"pos=(7,9) keys_held=[green] doors_open=[] keys_taken=[] coins=1 frozen=no",0,1,1,1,14,
+4,UniformGoExplore(Position+Keys),0,180,8,0,5,0,0,"pos=(4,8) keys_held=[green] doors_open=[] keys_taken=[] coins=1 frozen=no",0,3,0,1,4,
+4,UniformGoExplore(Position+Keys),0,210,8,1,2,0,0,"pos=(4,10) keys_held=[green] doors_open=[] keys_taken=[] coins=1 frozen=no",0,2,0,1,12,
+4,UniformGoExplore(Position+Keys),0,240,8,5,7,0,0,"pos=(3,9) keys_held=[green,blue] doors_open=[] keys_taken=[blue] coins=1 frozen=no",0,1,1,1,19,
+4,UniformGoExplore(Position+Keys),0,270,8,3,3,1,0,"pos=(4,8) keys_held=[green,blue] doors_open=[] keys_taken=[blue] coins=1 frozen=no",0,1,1,1,5,
+4,UniformGoExplore(Position+Keys),0,300,8,7,7,1,0,"pos=(2,9) keys_held=[green,blue] doors_open=[] keys_taken=[blue] coins=0 frozen=no",0,2,0,1,7,
+4,UniformGoExplore(Position+Keys),0,330,8,0,7,0,0,"pos=(4,3) keys_held=[green] doors_open=[] keys_taken=[green] coins=0 frozen=no",0,2,0,1,7,
+4,UniformGoExplore(Position+Keys),0,360,8,5,4,0,0,"pos=(1,9) keys_held=[green,blue] doors_open=[] keys_taken=[blue] coins=0 frozen=no",0,1,1,1,4,
+4,UniformGoExplore(Position+Keys),0,390,8,4,5,0,0,"pos=(2,10) keys_held=[green,blue] doors_open=[] keys_taken=[blue] coins=0 frozen=no",0,31,0,1,31,
+4,UniformGoExplore(Position+Keys),0,420,8,3,3,1,0,"pos=(4,9) keys_held=[green,blue] doors_open=[] keys_taken=[blue] coins=1 frozen=no",0,3,0,1,5,
+4,UniformGoExplore(Position+Keys),0,450,8,0,4,0,0,"pos=(6,9) keys_held=[green] doors_open=[] keys_taken=[] coins=1 frozen=no",0,1,1,1,10,
+4,UniformGoExplore(Position+Keys),0,480,8,4,7,0,0,"pos=(5,4) keys_held=[green] doors_open=[] keys_taken=[] coins=0 frozen=no",0,14,0,1,16,
+4,UniformGoExplore(Position+Keys),0,510,8,2,2,1,0,"pos=(0,2) keys_held=[green,blue] doors_open=[] keys_taken=[blue] coins=0 frozen=no",0,3,0,1,7,
+4,UniformGoExplore(Position+Keys),0,540,8,6,6,1,0,"pos=(4,2) keys_held=[green] doors_open=[] keys_taken=[green] coins=0 frozen=no",0,3,0,1,8,
+4,UniformGoExplore(Position+Keys),0,570,8,5,6,0,0,"pos=(4,11) keys_held=[green] doors_open=[blue] keys_taken=[blue] coins=1 frozen=no",0,1,1,1,41,
+4,UniformGoExplore(Position+Keys),0,600,8,1,4,0,0,"pos=(7,8) keys_held=[green] doors_open=[] keys_taken=[] coins=1 frozen=no",0,2,0,1,13,
+4,UniformGoExplore(Position+Keys),0,630,8,0,5,0,0,"pos=(0,9) keys_held=[green,blue] doors_open=[] keys_taken=[blue] coins=0 frozen=no",0,3,0,1,22,
+4,UniformGoExplore(Position+Keys),0,660,8,7,3,0,0,"pos=(10,9) keys_held=[green,blue] doors_open=[] keys_taken=[blue] coins=0 frozen=no",0,1,1,1,22,
+4,UniformGoExplore(Position+Keys),0,690,8,3,0,0,0,"pos=(5,3) keys_held=[] doors_open=[] keys_taken=[] coins=0 frozen=no",0,1,1,1,10,
+4,UniformGoExplore(Position+Keys),0,720,8,5,5,1,0,"pos=(6,2) keys_held=[] doors_open=[] keys_taken=[] coins=1 frozen=no",0,3,0,1,13,
+4,UniformGoExplore(Position+Keys),0,750,8,7,3,0,0,"pos=(7,7) keys_held=[green] doors_open=[] keys_taken=[] coins=1 frozen=no",0,5,0,2,9,
+4,UniformGoExplore(Position+Keys),0,780,8,7,0,0,0,"pos=(5,2) keys_held=[green] doors_open=[] keys_taken=[green] coins=0 frozen=no",0,3,0,1,18,
+4,UniformGoExplore(Position+Keys),0,810,8,6,1,0,0,"pos=(6,3) keys_held=[green] doors_open=[] keys_taken=[green] coins=1 frozen=no",0,2,0,1,8,
+4,UniformGoExplore(Position+Keys),0,840,8,1,4,0,0,"pos=(5,8) keys_held=[green,blue] doors_open=[] keys_taken=[blue] coins=1 frozen=no",0,1,1,1,13,
+4,UniformGoExplore(Position+Keys),0,870,8,3,6,0,0,"pos=(9,10) keys_held=[green,blue] doors_open=[] keys_taken=[blue] coins=0 frozen=no",0,2,1,2,8,
+4,UniformGoExplore(Position+Keys),0,900,8,1,1,1,0,"pos=(0,3) keys_held=[green,blue] doors_open=[] keys_taken=[blue] coins=0 frozen=no",0,6,0,1,6,
+4,UniformGoExplore(Position+Keys),0,930,8,4,4,1,0,"pos=(2,9) keys_held=[green] doors_open=[] keys_taken=[] coins=1 frozen=no",0,1,1,1,15,
+4,UniformGoExplore(Position+Keys),0,960,8,2,5,0,0,"pos=(9,9) keys_held=[green] doors_open=[blue] keys_taken=[blue] coins=1 frozen=no",0,1,1,1,41,
+4,UniformGoExplore(Position+Keys),0,990,8,7,1,0,0,"pos=(3,9) keys_held=[green,blue] doors_open=[] keys_taken=[blue] coins=1 frozen=no",1,5,0,1,22,
+4,UniformGoExplore(Position+Keys),0,1020,8,3,6,0,0,"pos=(4,11) keys_held=[green] doors_open=[blue] keys_taken=[blue] coins=1 frozen=no",1,2,0,1,9,
+4,UniformGoExplore(Position+Keys),0,1050,8,2,7,0,0,"pos=(8,10) keys_held=[green,blue] doors_open=[] keys_taken=[blue] coins=1 frozen=no",0,9,0,1,15,
+4,UniformGoExplore(Position+Keys),0,1080,8,0,7,0,0,"pos=(4,9) keys_held=[green,blue] doors_open=[] keys_taken=[blue] coins=1 frozen=no",1,4,0,1,12,
+4,UniformGoExplore(Position+Keys),0,1110,8,3,1,0,0,"pos=(2,5) keys_held=[green,blue] doors_open=[] keys_taken=[blue] coins=0 frozen=no",0,8,0,1,11,
+4,UniformGoExplore(Position+Keys),0,1140,8,0,5,0,0,"pos=(11,7) keys_held=[green,blue] doors_open=[] keys_taken=[blue] coins=0 frozen=no",0,1,1,1,19,
+4,UniformGoExplore(Position+Keys),0,1170,8,0,1,0,0,"pos=(7,9) keys_held=[green,blue] doors_open=[] keys_taken=[blue] coins=1 frozen=no",0,7,0,1,10,
+4,UniformGoExplore(Position+Keys),0,1200,8,0,2,0,0,"pos=(5,3) keys_held=[green,blue] doors_open=[] keys_taken=[blue] coins=1 frozen=no",0,2,0,1,29,
+4,UniformGoExplore(Position+Keys),0,1230,8,1,3,0,0,"pos=(0,6) keys_held=[green,blue] doors_open=[] keys_taken=[blue] coins=0 frozen=no",0,2,0,1,35,
+4,UniformGoExplore(Position+Keys),0,1260,8,7,5,0,0,"pos=(3,9) keys_held=[green] doors_open=[] keys_taken=[] coins=1 frozen=no",0,1,1,1,29,
+4,UniformGoExplore(Position+Keys),0,1290,8,5,4,0,0,"pos=(0,12) keys_held=[green,blue] doors_open=[] keys_taken=[blue] coins=0 frozen=no",0,1,1,1,21,
+4,UniformGoExplore(Position+Keys),0,1320,8,1,4,0,0,"pos=(3,7) keys_held=[green] doors_open=[] keys_taken=[] coins=0 frozen=no",0,11,0,1,12,
+4,UniformGoExplore(Position+Keys),0,1350,8,3,5,0,0,"pos=(7,10) keys_held=[green] doors_open=[] keys_taken=[] coins=1 frozen=no",0,16,0,1,16,
+4,UniformGoExplore(Position+Keys),0,1380,8,3,7,0,0,"pos=(1,9) keys_held=[green] doors_open=[] keys_taken=[] coins=1 frozen=no",0,4,0,2,20,
+4,UniformGoExplore(Position+Keys),0,1410,8,5,3,0,0,"pos=(5,9) keys_held=[green] doors_open=[] keys_taken=[] coins=1 frozen=no",0,2,0,1,14,
+4,UniformGoExplore(Position+Keys),0,1440,8,2,0,0,0,"pos=(2,3) keys_held=[] doors_open=[] keys_taken=[] coins=0 frozen=no",0,8,0,3,20,
+4,UniformGoExplore(Position+Keys),0,1470,8,7,0,0,0,"pos=(4,9) keys_held=[green] doors_open=[] keys_taken=[] coins=1 frozen=no",0,9,0,1,14,
+4,UniformGoExplore(Position+Keys),0,1500,8,6,7,0,0,"pos=(4,9) keys_held=[green] doors_open=[] keys_taken=[] coins=1 frozen=no",1,10,0,1,13,
+4,UniformGoExplore(Position+Keys),0,1530,8,1,5,0,0,"pos=(8,8) keys_held=[green,blue] doors_open=[] keys_taken=[blue] coins=1 frozen=no",0,1,1,1,49,
+4,UniformGoExplore(Position+Keys),0,1560,8,4,7,0,0,"pos=(1,12) keys_held=[green] doors_open=[] keys_taken=[] coins=1 frozen=no",0,4,0,1,34,
+4,UniformGoExplore(Position+Keys),0,1590,8,1,6,0,0,"pos=(7,8) keys_held=[green,blue] doors_open=[] keys_taken=[blue] coins=1 frozen=no",0,4,0,1,24,
+4,UniformGoExplore(Position+Keys),0,1620,8,7,4,0,0,"pos=(5,7) keys_held=[green,blue] doors_open=[] keys_taken=[blue] coins=1 frozen=no",0,14,0,1,14,
+4,UniformGoExplore(Position+Keys),0,1650,8,4,1,0,0,"pos=(15,8) keys_held=[green,blue] doors_open=[] keys_taken=[blue] coins=0 frozen=no",0,1,1,1,15,
+4,UniformGoExplore(Position+Keys),0,1680,8,4,1,0,0,"pos=(10,8) keys_held=[green] doors_open=[blue] keys_taken=[blue] coins=1 frozen=no",0,5,0,1,49,
+4,UniformGoExplore(Position+Keys),0,1710,8,1,1,1,0,"pos=(1,14) keys_held=[green] doors_open=[] keys_taken=[] coins=1 frozen=no",0,3,0,1,34,
+4,UniformGoExplore(Position+Keys),0,1740,8,6,6,1,0,"pos=(5,8) keys_held=[green] doors_open=[blue] keys_taken=[blue] coins=1 frozen=no",0,2,0,1,22,
+4,UniformGoExplore(Position+Keys),0,1770,8,6,2,0,0,"pos=(0,2) keys_held=[green,blue] doors_open=[] keys_taken=[blue] coins=0 frozen=no",1,20,0,1,20,
+4,UniformGoExplore(Position+Keys),0,1800,8,1,1,1,0,"pos=(9,8) keys_held=[green] doors_open=[] keys_taken=[] coins=1 frozen=no",0,1,1,1,10,
+4,UniformGoExplore(Position+Keys),0,1830,8,5,5,1,0,"pos=(0,10) keys_held=[green] doors_open=[] keys_taken=[] coins=1 frozen=no",0,2,0,1,8,
+4,UniformGoExplore(Position+Keys),0,1860,8,7,7,1,0,"pos=(11,10) keys_held=[green] doors_open=[blue] keys_taken=[blue] coins=1 frozen=no",0,4,0,1,24,
+4,UniformGoExplore(Position+Keys),0,1890,8,2,4,0,0,"pos=(3,15) keys_held=[green] doors_open=[] keys_taken=[] coins=1 frozen=no",0,1,1,1,11,
+4,UniformGoExplore(Position+Keys),0,1920,8,0,6,0,0,"pos=(4,7) keys_held=[green] doors_open=[blue] keys_taken=[blue] coins=1 frozen=no",0,5,0,1,49,
+4,UniformGoExplore(Position+Keys),0,1950,8,3,1,0,0,"pos=(3,9) keys_held=[green] doors_open=[blue] keys_taken=[blue] coins=1 frozen=no",0,1,1,1,19,
+4,UniformGoExplore(Position+Keys),0,1980,8,7,0,0,0,"pos=(17,10) keys_held=[green,blue] doors_open=[] keys_taken=[blue] coins=0 frozen=no",0,1,1,1,27,
+5,UniformGoExplore(Position+Keys),1,30,8,0,7,0,0,"pos=(6,2) keys_held=[] doors_open=[] keys_taken=[] coins=1 frozen=no",0,3,0,1,9,
+5,UniformGoExplore(Position+Keys),1,60,8,4,0,0,0,"pos=(7,2) keys_held=[] doors_open=[] keys_taken=[] coins=1 frozen=no",0,9,0,1,9,
+5,UniformGoExplore(Position+Keys),1,90,8,2,1,0,0,"pos=(3,3) keys_held=[green] doors_open=[] keys_taken=[green] coins=1 frozen=no",0,1,1,1,13,
+5,UniformGoExplore(Position+Keys),1,120,8,3,5,0,0,"pos=(5,4) keys_held=[green] doors_open=[] keys_taken=[] coins=1 frozen=no",0,2,0,1,29,
+5,UniformGoExplore(Position+Keys),1,150,8,1,0,0,0,"pos=(5,4) keys_held=[green] doors_open=[] keys_taken=[] coins=1 frozen=no",1,5,0,1,18,
+5,UniformGoExplore(Position+Keys),1,180,8,1,1,1,0,"pos=(4,2) keys_held=[green] doors_open=[] keys_taken=[] coins=1 frozen=no",0,2,0,1,29,
+5,UniformGoExplore(Position+Keys),1,210,8,3,4,0,0,"pos=(2,2) keys_held=[] doors_open=[] keys_taken=[] coins=0 frozen=no",1,2,0,1,11,
+5,UniformGoExplore(Position+Keys),1,240,8,6,3,0,0,"pos=(2,2) keys_held=[green] doors_open=[] keys_taken=[green] coins=1 frozen=no",0,13,0,1,29,
+5,UniformGoExplore(Position+Keys),1,270,8,2,0,0,0,"pos=(5,8) keys_held=[green] doors_open=[] keys_taken=[] coins=1 frozen=no",0,2,0,1,29,
+5,UniformGoExplore(Position+Keys),1,300,8,5,4,0,0,"pos=(7,3) keys_held=[] doors_open=[] keys_taken=[] coins=1 frozen=no",0,18,0,1,19,
+5,UniformGoExplore(Position+Keys),1,330,8,0,6,0,0,"pos=(14,9) keys_held=[green] doors_open=[] keys_taken=[] coins=1 frozen=no",0,1,1,1,21,
+5,UniformGoExplore(Position+Keys),1,360,8,6,4,0,0,"pos=(3,3) keys_held=[green] doors_open=[] keys_taken=[green] coins=1 frozen=no",1,25,0,1,25,
+5,UniformGoExplore(Position+Keys),1,390,8,0,0,1,0,"pos=(5,3) keys_held=[green] doors_open=[] keys_taken=[green] coins=1 frozen=no",0,7,0,1,7,
+5,UniformGoExplore(Position+Keys),1,420,8,4,5,0,0,"pos=(3,3) keys_held=[green] doors_open=[] keys_taken=[green] coins=1 frozen=no",2,39,0,1,39,
+5,UniformGoExplore(Position+Keys),1,450,8,6,0,0,0,"pos=(5,6) keys_held=[green] doors_open=[] keys_taken=[] coins=1 frozen=no",0,2,0,1,10,
+5,UniformGoExplore(Position+Keys),1,480,8,4,5,0,0,"pos=(2,3) keys_held=[] doors_open=[] keys_taken=[] coins=0 frozen=no",0,4,0,1,43,
+5,UniformGoExplore(Position+Keys),1,510,8,6,1,0,0,"pos=(10,8) keys_held=[green] doors_open=[] keys_taken=[] coins=1 frozen=no",0,1,1,1,25,
+5,UniformGoExplore(Position+Keys),1,540,8,6,4,0,0,"pos=(7,2) keys_held=[green] doors_open=[] keys_taken=[] coins=1 frozen=no",0,22,0,1,31,
+5,UniformGoExplore(Position+Keys),1,570,8,2,7,0,0,"pos=(15,8) keys_held=[green] doors_open=[] keys_taken=[] coins=1 frozen=no",0,6,0,1,36,
+5,UniformGoExplore(Position+Keys),1,600,8,4,4,1,0,"pos=(8,9) keys_held=[green] doors_open=[] keys_taken=[] coins=1 frozen=no",0,1,1,1,48,
+5,UniformGoExplore(Position+Keys),1,630,8,4,7,0,0,"pos=(20,8) keys_held=[green] doors_open=[] keys_taken=[] coins=1 frozen=no",0,5,0,1,16,
+5,UniformGoExplore(Position+Keys),1,660,8,5,1,0,0,"pos=(13,9) keys_held=[green] doors_open=[] keys_taken=[] coins=1 frozen=no",0,1,1,1,16,
+5,UniformGoExplore(Position+Keys),1,690,8,0,6,0,0,"pos=(16,8) keys_held=[green] doors_open=[] keys_taken=[] coins=1 frozen=no",0,9,0,2,36,
+5,UniformGoExplore(Position+Keys),1,720,8,7,5,0,0,"pos=(2,2) keys_held=[green] doors_open=[] keys_taken=[green] coins=1 frozen=no",1,26,0,1,26,
+5,UniformGoExplore(Position+Keys),1,750,8,2,0,0,0,"pos=(14,10) keys_held=[green] doors_open=[] keys_taken=[] coins=1 frozen=no",0,5,0,1,6,
+5,UniformGoExplore(Position+Keys),1,780,8,4,2,0,0,"pos=(4,2) keys_held=[] doors_open=[] keys_taken=[] coins=0 frozen=no",0,1,1,1,10,
+5,UniformGoExplore(Position+Keys),1,810,8,4,7,0,0,"pos=(6,3) keys_held=[green] doors_open=[] keys_taken=[green] coins=1 frozen=no",0,18,0,1,23,
+5,UniformGoExplore(Position+Keys),1,840,8,5,4,0,0,"pos=(10,10) keys_held=[green] doors_open=[] keys_taken=[] coins=1 frozen=no",0,10,0,2,30,
+5,UniformGoExplore(Position+Keys),1,870,8,3,6,0,0,"pos=(12,8) keys_held=[green] doors_open=[] keys_taken=[] coins=1 frozen=no",0,2,0,1,31,
+5,UniformGoExplore(Position+Keys),1,900,8,6,6,1,0,"pos=(11,10) keys_held=[green] doors_open=[] keys_taken=[] coins=1 frozen=no",0,12,0,2,39,
+5,UniformGoExplore(Position+Keys),1,930,8,4,2,0,0,"pos=(6,2) keys_held=[] doors_open=[] keys_taken=[] coins=1 frozen=no",1,10,0,1,17,
+5,UniformGoExplore(Position+Keys),1,960,8,5,2,0,0,"pos=(14,7) keys_held=[green] doors_open=[] keys_taken=[] coins=1 frozen=no",0,4,0,2,30,
+5,UniformGoExplore(Position+Keys),1,990,8,7,5,0,0,"pos=(15,9) keys_held=[green] doors_open=[] keys_taken=[] coins=1 frozen=no",0,8,0,1,20,
+5,UniformGoExplore(Position+Keys),1,1020,8,2,0,0,0,"pos=(11,8) keys_held=[green] doors_open=[] keys_taken=[] coins=1 frozen=no",0,6,0,1,31,
+5,UniformGoExplore(Position+Keys),1,1050,8,0,4,0,0,"pos=(18,9) keys_held=[green] doors_open=[] keys_taken=[] coins=1 frozen=no",0,1,1,1,17,
+5,UniformGoExplore(Position+Keys),1,1080,8,7,1,0,0,"pos=(21,10) keys_held=[green] doors_open=[] keys_taken=[] coins=1 frozen=no",0,2,0,1,46,
+5,UniformGoExplore(Position+Keys),1,1110,8,3,2,0,0,"pos=(9,10) keys_held=[green] doors_open=[] keys_taken=[] coins=1 frozen=no",0,5,0,4,16,
+5,UniformGoExplore(Position+Keys),1,1140,8,3,3,1,0,"pos=(4,9) keys_held=[green] doors_open=[] keys_taken=[] coins=1 frozen=no",0,5,0,1,34,
+5,UniformGoExplore(Position+Keys),1,1170,8,5,7,0,0,"pos=(6,10) keys_held=[green] doors_open=[] keys_taken=[] coins=1 frozen=no",0,3,0,1,17,
+5,UniformGoExplore(Position+Keys),1,1200,8,6,0,0,0,"pos=(15,4) keys_held=[] doors_open=[green] keys_taken=[] coins=2 frozen=no",0,1,1,1,58,
+5,UniformGoExplore(Position+Keys),1,1230,8,3,2,0,0,"pos=(4,10) keys_held=[green] doors_open=[] keys_taken=[] coins=1 frozen=no",0,14,0,1,14,
+5,UniformGoExplore(Position+Keys),1,1260,8,4,7,0,0,"pos=(3,2) keys_held=[green] doors_open=[] keys_taken=[green] coins=1 frozen=no",0,34,0,1,34,
+5,UniformGoExplore(Position+Keys),1,1290,8,6,0,0,0,"pos=(21,9) keys_held=[green] doors_open=[] keys_taken=[] coins=2 frozen=no",0,10,0,1,13,
+5,UniformGoExplore(Position+Keys),1,1320,8,6,2,0,0,"pos=(2,10) keys_held=[green] doors_open=[] keys_taken=[] coins=1 frozen=no",0,13,0,2,30,
+5,UniformGoExplore(Position+Keys),1,1350,8,4,5,0,0,"pos=(5,10) keys_held=[green,blue] doors_open=[] keys_taken=[blue] coins=2 frozen=no",0,2,0,1,30,
+5,UniformGoExplore(Position+Keys),1,1380,8,6,0,0,0,"pos=(2,8) keys_held=[green,blue] doors_open=[] keys_taken=[blue] coins=2 frozen=no",0,1,1,1,65,
+5,UniformGoExplore(Position+Keys),1,1410,8,2,5,0,0,"pos=(17,9) keys_held=[green] doors_open=[] keys_taken=[] coins=1 frozen=no",0,7,0,1,14,
+5,UniformGoExplore(Position+Keys),1,1440,8,3,0,0,0,"pos=(4,3) keys_held=[green] doors_open=[] keys_taken=[green] coins=1 frozen=no",0,32,0,1,32,
+5,UniformGoExplore(Position+Keys),1,1470,8,3,2,0,0,"pos=(5,7) keys_held=[green,blue] doors_open=[] keys_taken=[blue] coins=1 frozen=no",0,2,0,1,35,
+5,UniformGoExplore(Position+Keys),1,1500,8,6,7,0,0,"pos=(6,7) keys_held=[green] doors_open=[] keys_taken=[] coins=2 frozen=no",0,2,0,1,11,
+5,UniformGoExplore(Position+Keys),1,1530,8,5,5,1,0,"pos=(16,2) keys_held=[red] doors_open=[green] keys_taken=[red] coins=3 frozen=no",0,1,1,1,17,
+5,UniformGoExplore(Position+Keys),1,1560,8,4,6,0,0,"pos=(2,3) keys_held=[] doors_open=[] keys_taken=[] coins=0 frozen=no",1,14,0,1,14,
+5,UniformGoExplore(Position+Keys),1,1590,8,4,1,0,0,"pos=(5,3) keys_held=[green,blue] doors_open=[] keys_taken=[blue] coins=1 frozen=no",0,1,1,1,8,
+5,UniformGoExplore(Position+Keys),1,1620,8,2,1,0,0,"pos=(4,2) keys_held=[green] doors_open=[] keys_taken=[] coins=1 frozen=no",1,16,0,1,16,
+5,UniformGoExplore(Position+Keys),1,1650,8,1,2,0,0,"pos=(9,9) keys_held=[green,blue] doors_open=[] keys_taken=[blue] coins=2 frozen=no",0,2,0,1,11,
+5,UniformGoExplore(Position+Keys),1,1680,8,7,1,0,0,"pos=(4,7) keys_held=[green,blue] doors_open=[] keys_taken=[blue] coins=1 frozen=no",0,6,0,1,43,
+5,UniformGoExplore(Position+Keys),1,1710,8,3,3,1,0,"pos=(16,10) keys_held=[green] doors_open=[red] keys_taken=[] coins=1 frozen=no",0,1,1,1,7,
+5,UniformGoExplore(Position+Keys),1,1740,8,3,0,0,0,"pos=(16,5) keys_held=[] doors_open=[green] keys_taken=[] coins=2 frozen=no",0,1,1,1,13,
+5,UniformGoExplore(Position+Keys),1,1770,8,2,5,0,0,"pos=(12,9) keys_held=[green] doors_open=[] keys_taken=[] coins=1 frozen=yes",0,51,0,1,51,
+5,UniformGoExplore(Position+Keys),1,1800,8,5,4,0,0,"pos=(5,6) keys_held=[green] doors_open=[] keys_taken=[] coins=1 frozen=no",1,5,0,1,25,
+5,UniformGoExplore(Position+Keys),1,1830,8,2,4,0,0,"pos=(16,6) keys_held=[] doors_open=[green] keys_taken=[] coins=2 frozen=no",0,5,0,1,14,
+5,UniformGoExplore(Position+Keys),1,1860,8,7,7,1,0,"pos=(15,4) keys_held=[red] doors_open=[green] keys_taken=[red] coins=3 frozen=no",0,2,0,1,11,
+5,UniformGoExplore(Position+Keys),1,1890,8,5,0,0,0,"pos=(5,7) keys_held=[green] doors_open=[] keys_taken=[] coins=1 frozen=no",0,6,0,1,6,
+5,UniformGoExplore(Position+Keys),1,1920,8,6,3,0,0,"pos=(12,7) keys_held=[green] doors_open=[] keys_taken=[] coins=1 frozen=no",0,4,0,1,11,
+5,UniformGoExplore(Position+Keys),1,1950,8,1,6,0,0,"pos=(9,7) keys_held=[green,blue] doors_open=[] keys_taken=[blue] coins=2 frozen=no",0,1,1,1,13,
+5,UniformGoExplore(Position+Keys),1,1980,8,1,1,1,0,"pos=(17,3) keys_held=[] doors_open=[green] keys_taken=[] coins=3 frozen=no",0,3,0,1,51,
+6,UniformGoExplore(Position+Keys),2,30,7,2,3,0,0,"pos=(4,2) keys_held=[] doors_open=[] keys_taken=[] coins=0 frozen=no",0,1,1,1,14,
+6,UniformGoExplore(Position+Keys),2,60,8,2,2,1,0,"pos=(6,2) keys_held=[] doors_open=[] keys_taken=[] coins=1 frozen=no",0,2,0,1,6,
+6,UniformGoExplore(Position+Keys),2,90,8,2,4,0,0,"pos=(5,4) keys_held=[] doors_open=[] keys_taken=[] coins=1 frozen=no",0,6,0,1,7,
+6,UniformGoExplore(Position+Keys),2,120,8,1,2,0,0,"pos=(5,5) keys_held=[] doors_open=[] keys_taken=[] coins=1 frozen=no",0,3,0,1,10,
+6,UniformGoExplore(Position+Keys),2,150,8,5,1,0,0,"pos=(4,3) keys_held=[green] doors_open=[] keys_taken=[green] coins=0 frozen=no",0,1,1,1,14,
+6,UniformGoExplore(Position+Keys),2,180,8,7,5,0,0,"pos=(5,4) keys_held=[] doors_open=[] keys_taken=[] coins=1 frozen=no",1,31,0,1,31,
+6,UniformGoExplore(Position+Keys),2,210,8,7,3,0,0,"pos=(5,2) keys_held=[] doors_open=[] keys_taken=[] coins=0 frozen=no",0,1,1,1,13,
+6,UniformGoExplore(Position+Keys),2,240,8,6,7,0,0,"pos=(3,8) keys_held=[blue] doors_open=[] keys_taken=[blue] coins=1 frozen=no",0,10,0,1,13,
+6,UniformGoExplore(Position+Keys),2,270,8,7,5,0,0,"pos=(2,7) keys_held=[] doors_open=[] keys_taken=[] coins=1 frozen=no",0,1,1,1,8,
+6,UniformGoExplore(Position+Keys),2,300,8,7,3,0,0,"pos=(4,7) keys_held=[blue] doors_open=[] keys_taken=[blue] coins=1 frozen=no",0,9,0,1,13,
+6,UniformGoExplore(Position+Keys),2,330,8,4,7,0,0,"pos=(7,3) keys_held=[green] doors_open=[] keys_taken=[green] coins=1 frozen=no",0,17,0,1,17,
+6,UniformGoExplore(Position+Keys),2,360,8,0,2,0,0,"pos=(5,3) keys_held=[green] doors_open=[] keys_taken=[green] coins=1 frozen=no",0,5,0,1,11,
+6,UniformGoExplore(Position+Keys),2,390,8,6,5,0,0,"pos=(5,6) keys_held=[] doors_open=[] keys_taken=[] coins=1 frozen=no",0,8,0,1,11,
+6,UniformGoExplore(Position+Keys),2,420,8,4,0,0,0,"pos=(4,2) keys_held=[] doors_open=[] keys_taken=[] coins=0 frozen=no",1,1,1,1,13,
+6,UniformGoExplore(Position+Keys),2,450,8,0,0,1,0,"pos=(5,2) keys_held=[green] doors_open=[] keys_taken=[green] coins=0 frozen=no",0,5,0,1,10,
+6,UniformGoExplore(Position+Keys),2,480,8,3,1,0,0,"pos=(4,8) keys_held=[blue] doors_open=[] keys_taken=[blue] coins=1 frozen=no",0,5,0,1,11,
+6,UniformGoExplore(Position+Keys),2,510,8,0,0,1,0,"pos=(3,3) keys_held=[] doors_open=[] keys_taken=[] coins=0 frozen=no",0,10,0,1,10,
+6,UniformGoExplore(Position+Keys),2,540,8,4,5,0,0,"pos=(3,3) keys_held=[green] doors_open=[] keys_taken=[green] coins=1 frozen=no",0,23,0,2,23,
+6,UniformGoExplore(Position+Keys),2,570,8,2,6,0,0,"pos=(2,8) keys_held=[] doors_open=[] keys_taken=[] coins=1 frozen=no",0,2,0,1,11,
+6,UniformGoExplore(Position+Keys),2,600,8,4,7,0,0,"pos=(5,4) keys_held=[blue] doors_open=[] keys_taken=[blue] coins=1 frozen=no",0,1,1,1,14,
+6,UniformGoExplore(Position+Keys),2,630,8,4,4,1,0,"pos=(2,7) keys_held=[] doors_open=[] keys_taken=[] coins=1 frozen=no",1,11,0,1,12,
+6,UniformGoExplore(Position+Keys),2,660,8,4,5,0,0,"pos=(9,10) keys_held=[blue] doors_open=[] keys_taken=[blue] coins=2 frozen=no",0,1,1,1,32,
+6,UniformGoExplore(Position+Keys),2,690,8,1,2,0,0,"pos=(5,8) keys_held=[] doors_open=[] keys_taken=[] coins=1 frozen=no",0,1,1,1,28,
+6,UniformGoExplore(Position+Keys),2,720,8,3,1,0,0,"pos=(6,2) keys_held=[] doors_open=[] keys_taken=[] coins=1 frozen=no",1,12,0,1,19,
+6,UniformGoExplore(Position+Keys),2,750,8,3,7,0,0,"pos=(4,2) keys_held=[] doors_open=[] keys_taken=[] coins=0 frozen=no",2,7,0,1,22,
+6,UniformGoExplore(Position+Keys),2,780,8,3,0,0,0,"pos=(3,8) keys_held=[blue] doors_open=[] keys_taken=[blue] coins=1 frozen=no",1,19,0,1,32,
+6,UniformGoExplore(Position+Keys),2,810,8,0,7,0,0,"pos=(2,3) keys_held=[] doors_open=[] keys_taken=[] coins=0 frozen=no",0,16,0,1,17,
+6,UniformGoExplore(Position+Keys),2,840,8,6,3,0,0,"pos=(3,9) keys_held=[blue] doors_open=[] keys_taken=[blue] coins=1 frozen=no",0,6,0,1,22,
+6,UniformGoExplore(Position+Keys),2,870,8,0,7,0,0,"pos=(7,7) keys_held=[blue] doors_open=[] keys_taken=[blue] coins=2 frozen=no",0,1,1,1,28,
+6,UniformGoExplore(Position+Keys),2,900,8,1,7,0,0,"pos=(6,10) keys_held=[blue] doors_open=[] keys_taken=[blue] coins=1 frozen=no",0,2,0,1,6,
+6,UniformGoExplore(Position+Keys),2,930,8,2,4,0,0,"pos=(7,9) keys_held=[blue] doors_open=[] keys_taken=[blue] coins=1 frozen=no",0,4,0,1,28,
+6,UniformGoExplore(Position+Keys),2,960,8,2,3,0,0,"pos=(5,2) keys_held=[blue] doors_open=[] keys_taken=[blue] coins=1 frozen=no",0,4,0,1,30,
+6,UniformGoExplore(Position+Keys),2,990,8,1,0,0,0,"pos=(4,8) keys_held=[blue] doors_open=[] keys_taken=[blue] coins=1 frozen=no",1,8,0,1,32,
+6,UniformGoExplore(Position+Keys),2,1020,8,6,1,0,0,"pos=(9,9) keys_held=[blue] doors_open=[] keys_taken=[blue] coins=2 frozen=no",0,1,1,1,7,
+6,UniformGoExplore(Position+Keys),2,1050,8,6,1,0,0,"pos=(1,9) keys_held=[blue] doors_open=[] keys_taken=[blue] coins=1 frozen=no",0,3,0,1,13,
+6,UniformGoExplore(Position+Keys),2,1080,8,7,3,0,0,"pos=(6,10) keys_held=[blue] doors_open=[] keys_taken=[blue] coins=1 frozen=no",1,9,0,1,15,
+6,UniformGoExplore(Position+Keys),2,1110,8,1,5,0,0,"pos=(4,8) keys_held=[] doors_open=[] keys_taken=[] coins=1 frozen=no",0,1,1,1,11,
+6,UniformGoExplore(Position+Keys),2,1140,8,3,4,0,0,"pos=(5,7) keys_held=[blue] doors_open=[] keys_taken=[blue] coins=1 frozen=no",0,12,0,1,31,
+6,UniformGoExplore(Position+Keys),2,1170,8,0,5,0,0,"pos=(8,8) keys_held=[blue] doors_open=[] keys_taken=[blue] coins=2 frozen=no",0,3,0,1,32,
+6,UniformGoExplore(Position+Keys),2,1200,8,0,7,0,0,"pos=(9,9) keys_held=[blue] doors_open=[] keys_taken=[blue] coins=2 frozen=no",1,2,1,2,24,
+6,UniformGoExplore(Position+Keys),2,1230,8,6,1,0,0,"pos=(10,7) keys_held=[blue] doors_open=[] keys_taken=[blue] coins=2 frozen=no",0,1,1,1,11,
+6,UniformGoExplore(Position+Keys),2,1260,8,0,5,0,0,"pos=(3,2) keys_held=[blue] doors_open=[] keys_taken=[blue] coins=1 frozen=no",0,7,0,1,34,
+6,UniformGoExplore(Position+Keys),2,1290,8,1,5,0,0,"pos=(5,9) keys_held=[] doors_open=[] keys_taken=[] coins=1 frozen=no",0,4,0,1,31,
+6,UniformGoExplore(Position+Keys),2,1320,8,2,2,1,0,"pos=(6,8) keys_held=[blue] doors_open=[] keys_taken=[blue] coins=2 frozen=no",0,1,1,1,11,
+6,UniformGoExplore(Position+Keys),2,1350,8,5,5,1,0,"pos=(6,3) keys_held=[] doors_open=[] keys_taken=[] coins=1 frozen=no",0,11,0,1,30,
+6,UniformGoExplore(Position+Keys),2,1380,8,0,5,0,0,"pos=(5,10) keys_held=[blue] doors_open=[] keys_taken=[blue] coins=1 frozen=no",0,18,0,1,18,
+6,UniformGoExplore(Position+Keys),2,1410,8,3,6,0,0,"pos=(13,7) keys_held=[blue] doors_open=[] keys_taken=[blue] coins=2 frozen=no",0,1,1,1,18,
+6,UniformGoExplore(Position+Keys),2,1440,8,1,5,0,0,"pos=(11,7) keys_held=[blue] doors_open=[] keys_taken=[blue] coins=2 frozen=no",0,1,1,1,16,
+6,UniformGoExplore(Position+Keys),2,1470,8,4,6,0,0,"pos=(7,2) keys_held=[green] doors_open=[] keys_taken=[green] coins=1 frozen=no",0,13,0,1,15,
+6,UniformGoExplore(Position+Keys),2,1500,8,4,6,0,0,"pos=(6,10) keys_held=[blue] doors_open=[] keys_taken=[blue] coins=1 frozen=no",2,10,0,1,40,
+6,UniformGoExplore(Position+Keys),2,1530,8,7,7,1,0,"pos=(4,8) keys_held=[] doors_open=[] keys_taken=[] coins=1 frozen=no",1,3,0,2,6,
+6,UniformGoExplore(Position+Keys),2,1560,8,0,7,0,0,"pos=(3,9) keys_held=[] doors_open=[] keys_taken=[] coins=1 frozen=no",0,1,1,1,16,
+6,UniformGoExplore(Position+Keys),2,1590,8,7,1,0,0,"pos=(1,9) keys_held=[blue] doors_open=[] keys_taken=[blue] coins=1 frozen=no",1,3,0,1,9,
+6,UniformGoExplore(Position+Keys),2,1620,8,1,2,0,0,"pos=(6,3) keys_held=[] doors_open=[] keys_taken=[] coins=1 frozen=no",1,12,0,1,78,
+6,UniformGoExplore(Position+Keys),2,1650,8,1,3,0,0,"pos=(6,2) keys_held=[] doors_open=[] keys_taken=[] coins=1 frozen=no",2,26,0,1,26,
+6,UniformGoExplore(Position+Keys),2,1680,8,7,0,0,0,"pos=(7,3) keys_held=[] doors_open=[] keys_taken=[] coins=1 frozen=no",0,39,0,1,91,
+6,UniformGoExplore(Position+Keys),2,1710,8,3,7,0,0,"pos=(6,2) keys_held=[blue] doors_open=[] keys_taken=[blue] coins=1 frozen=no",0,2,0,1,17,
+6,UniformGoExplore(Position+Keys),2,1740,8,4,7,0,0,"pos=(4,9) keys_held=[] doors_open=[] keys_taken=[] coins=1 frozen=no",0,4,0,1,14,
+6,UniformGoExplore(Position+Keys),2,1770,8,3,0,0,0,"pos=(5,3) keys_held=[] doors_open=[] keys_taken=[] coins=1 frozen=no",0,12,0,4,12,
+6,UniformGoExplore(Position+Keys),2,1800,8,4,1,0,0,"pos=(5,8) keys_held=[] doors_open=[] keys_taken=[] coins=1 frozen=no",1,3,0,2,12,
+6,UniformGoExplore(Position+Keys),2,1830,8,6,5,0,0,"pos=(2,3) keys_held=[green] doors_open=[] keys_taken=[green] coins=1 frozen=no",0,32,0,1,40,
+6,UniformGoExplore(Position+Keys),2,1860,8,1,3,0,0,"pos=(6,7) keys_held=[] doors_open=[] keys_taken=[] coins=1 frozen=no",0,1,1,1,33,
+6,UniformGoExplore(Position+Keys),2,1890,8,3,1,0,0,"pos=(2,10) keys_held=[] doors_open=[] keys_taken=[] coins=1 frozen=no",0,17,0,2,36,
+6,UniformGoExplore(Position+Keys),2,1920,8,1,2,0,0,"pos=(4,10) keys_held=[blue] doors_open=[] keys_taken=[blue] coins=1 frozen=no",0,6,0,2,42,
+6,UniformGoExplore(Position+Keys),2,1950,8,3,2,0,0,"pos=(11,7) keys_held=[blue] doors_open=[] keys_taken=[blue] coins=2 frozen=no",1,7,0,1,19,
+6,UniformGoExplore(Position+Keys),2,1980,8,4,3,0,0,"pos=(14,8) keys_held=[blue] doors_open=[] keys_taken=[blue] coins=2 frozen=no",0,1,1,1,42,

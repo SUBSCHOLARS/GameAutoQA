@@ -1,0 +1,15 @@
+{
+ "model": "qwen2.5:7b-instruct",
+ "options": {
+  "temperature": 0,
+  "top_k": 1,
+  "seed": 0,
+  "num_ctx": 4096,
+  "num_predict": 128
+ },
+ "run": "QaResults/20261115_200704",
+ "n": 40,
+ "n_blank": 24,
+ "seed": 0,
+ "variants": "baseline,letters,order_note"
+}

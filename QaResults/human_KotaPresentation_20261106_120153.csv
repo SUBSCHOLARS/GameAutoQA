@@ -1,0 +1,6 @@
+﻿participant,skill,t_sec,step,event,detail,bug,x,y
+KotaPresentation,developer,0.00,0,start,bugs=R1+R2+S1+S2+C1+C2+H1+H2,,2,2
+KotaPresentation,developer,5.22,7,trigger,S2,S2,5,4
+KotaPresentation,developer,10.94,19,trigger,H2,H2,12,9
+KotaPresentation,developer,11.11,20,oracle,SOFTLOCK,H2,12,9
+KotaPresentation,developer,27.32,37,finish,quit,,12,9

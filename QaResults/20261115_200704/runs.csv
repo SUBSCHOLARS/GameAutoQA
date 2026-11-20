@@ -1,0 +1,10 @@
+﻿run_id,agent,seed,bug_mode,enabled,enabled_count,budget,total_ms,detected,final_coverage,unintended_tiles,archive_cells,episodes,llm_calls,llm_fallbacks,llm_ms
+1,LlmGoExplore(Position+Keys),0,all,R1+R2+S1+S2+C1+C2+H1+H2,8,2000,194754.429,3,0.797,9,229,2,66,0,194680.909
+2,LlmGoExplore(Position+Keys),1,all,R1+R2+S1+S2+C1+C2+H1+H2,8,2000,241651.954,4,0.602,2,189,2,66,0,241608.648
+3,LlmGoExplore(Position+Keys),2,all,R1+R2+S1+S2+C1+C2+H1+H2,8,2000,267646.259,3,0.714,14,205,2,66,0,267623.758
+4,UniformGoExplore(Position+Keys),0,all,R1+R2+S1+S2+C1+C2+H1+H2,8,2000,1.9,4,0.654,35,245,2,,,
+5,UniformGoExplore(Position+Keys),1,all,R1+R2+S1+S2+C1+C2+H1+H2,8,2000,21.07,4,0.85,1,240,2,,,
+6,UniformGoExplore(Position+Keys),2,all,R1+R2+S1+S2+C1+C2+H1+H2,8,2000,1.359,2,0.526,4,139,2,,,
+7,GoExplore(Position+Keys),0,all,R1+R2+S1+S2+C1+C2+H1+H2,8,2000,1.988,4,0.647,8,231,2,,,
+8,GoExplore(Position+Keys),1,all,R1+R2+S1+S2+C1+C2+H1+H2,8,2000,1.448,3,0.564,16,212,2,,,
+9,GoExplore(Position+Keys),2,all,R1+R2+S1+S2+C1+C2+H1+H2,8,2000,2.599,3,0.511,25,182,2,,,

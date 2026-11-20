@@ -1,0 +1,5 @@
+﻿agent,runs,auc_mean,detected@1000_mean,detected@2000_mean,coverage_mean,total_ms_mean
+GoExplore(Position+Keys),10,0.234,0.262,0.462,0.675,4.0
+UniformGoExplore(Position+Keys),10,0.239,0.288,0.4,0.73,3.5
+UnvisitedGoExplore(Position+Keys),10,0.276,0.3,0.4,0.857,9.0
+LlmGoExplore(Position+Keys),10,0.28,0.325,0.475,0.819,528437.5

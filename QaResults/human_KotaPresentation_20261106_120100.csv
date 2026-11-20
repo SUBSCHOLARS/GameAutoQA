@@ -1,0 +1,3 @@
+﻿participant,skill,t_sec,step,event,detail,bug,x,y
+KotaPresentation,developer,0.00,0,start,bugs=R1+R2+S1+S2+C1+C2+H1+H2,,2,2
+KotaPresentation,developer,69.67,8,finish,quit,,6,2

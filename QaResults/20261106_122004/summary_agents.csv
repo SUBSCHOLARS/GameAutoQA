@@ -1,0 +1,5 @@
+﻿agent,runs,auc_mean,detected@1000_mean,detected@5000_mean,detected@250000_mean,detected@500000_mean,coverage_mean,total_ms_mean
+Random,10,0.634,0.225,0.425,0.65,0.662,0.933,114.0
+GoExplore(Position),10,0.656,0.238,0.488,0.675,0.688,0.943,290.7
+GoExplore(Position+Keys),10,0.863,0.262,0.588,0.888,0.888,1.0,2007.0
+GoExplore(Full),10,0.859,0.25,0.575,0.875,0.875,1.0,3357.9

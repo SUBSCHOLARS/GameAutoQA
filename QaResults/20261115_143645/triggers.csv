@@ -1,0 +1,7 @@
+﻿run_id,agent,seed,bug,category,step,elapsed_ms,x,y
+1,LlmGoExplore(Position+Keys),0,S2,State,286,23992.484,5,4
+1,LlmGoExplore(Position+Keys),0,H2,Softlock,1992,141868.657,12,9
+2,LlmGoExplore(Position+Keys),1,S2,State,312,25732.432,5,4
+2,LlmGoExplore(Position+Keys),1,H2,Softlock,1050,97011.095,12,9
+2,LlmGoExplore(Position+Keys),1,R1,Reachability,1342,125251.631,1,9
+2,LlmGoExplore(Position+Keys),1,S1,State,1806,172868.672,14,10
