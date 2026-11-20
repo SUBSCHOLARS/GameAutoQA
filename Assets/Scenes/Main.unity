@@ -255,15 +255,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e481e42a54ce0408bb350a5f93d6700e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::QaTestbed.UnityView.GridGameView
-  mode: 0
+  mode: 1
   enableAllBugs: 1
   randomSubset: 0
   subsetSize: 4
   bugSeed: 0
-  participantId: Kota
+  participantId: KotaPresentation
   skillLevel: developer
-  timeLimitSeconds: 600
-  agentKind: GoExplore(Position+Keys)
+  timeLimitSeconds: 12000
+  agentKind: GoExplore(Full)
   stepsPerSecond: 15
   agentSeed: 0
 --- !u!1 &1823703732
@@ -379,7 +379,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &2101536176
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -392,7 +392,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9975f735f60741e48b7543096f9828e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::QaTestbed.UnityView.ExperimentRunnerBehaviour
-  stepBudget: 20000
+  stepBudget: 500000
   seeds: 10
   logInterval: 200
   bugMode: 0
