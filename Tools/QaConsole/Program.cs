@@ -7,6 +7,13 @@ using QaTestbed;
 // Unity を開かずに実験を回すためのコンソール版（任意）。
 //   dotnet run -c Release -- run --budget 20000 --seeds 10 --mode all --out ../../QaResults
 //   dotnet run -c Release -- verify
+// LLM（Ollama）を使う手法:
+//   dotnet run -c Release -- run --agents "LlmGoExplore(Position+Keys)" --llm-model qwen2.5:7b-instruct
+//     --llm-cache <path>   入出力の記録先（既定: <out>/llm_cache.jsonl）。同じ入力は記録から返す
+//     --llm-replay true    LLM を呼ばず記録だけで再実行（完全な再現）
+//     --llm-url <url>      既定 http://localhost:11434
+//     --llm-k <n>          LLM に見せる候補セルの数（既定 8）
+//     --llm-describe rich  候補の説明に周りの様子（未訪問マス・鍵・扉・ゴールまでの歩数）を加える（既定 basic）
 internal static class Program
 {
     private static int Main(string[] args)
@@ -32,7 +39,49 @@ internal static class Program
         }
         if (opts.ContainsKey("agents")) cfg.AgentKinds = opts["agents"].Split(';').ToList();
         string outDir = opts.ContainsKey("out") ? opts["out"] : "QaResults";
-        ExperimentRunner.Run(cfg, outDir, Console.WriteLine);
+        if (opts.ContainsKey("llm-k")) cfg.LlmCandidates = int.Parse(opts["llm-k"], CultureInfo.InvariantCulture);
+        if (opts.ContainsKey("llm-describe"))
+        {
+            if (opts["llm-describe"] != "basic" && opts["llm-describe"] != "rich") throw new ArgumentException("llm-describe must be basic|rich");
+            cfg.LlmRichDescription = opts["llm-describe"] == "rich";
+        }
+
+        CachingLlmClient llm = null;
+        if (cfg.AgentKinds.Any(AgentFactory.NeedsLlm))
+        {
+            if (!opts.ContainsKey("llm-model")) { Console.Error.WriteLine("LLM を使う手法には --llm-model が必要です（例 qwen2.5:7b-instruct）"); return 2; }
+            string model = opts["llm-model"];
+            string cachePath = opts.ContainsKey("llm-cache") ? opts["llm-cache"] : System.IO.Path.Combine(outDir, "llm_cache.jsonl");
+            bool replay = opts.ContainsKey("llm-replay") && opts["llm-replay"] == "true";
+            if (replay)
+            {
+                // 記録時と同じ生成設定でキーを作る（OllamaClient の既定値と揃える）
+                string options = new OllamaOptions().ToJson();
+                llm = new CachingLlmClient(cachePath, null, true, model, options);
+                Console.WriteLine($"LLM replay: {model}, {llm.Count} recorded responses from {cachePath}");
+            }
+            else
+            {
+                string url = opts.ContainsKey("llm-url") ? opts["llm-url"] : "http://localhost:11434";
+                var ollama = new OllamaClient(model, url);
+                llm = new CachingLlmClient(cachePath, ollama, false);
+                Console.WriteLine($"LLM: {model} digest={ollama.ModelDigest} ollama={ollama.ServerVersion}, cache {cachePath} ({llm.Count} recorded)");
+            }
+            cfg.Llm = llm;
+        }
+
+        try
+        {
+            ExperimentRunner.Run(cfg, outDir, Console.WriteLine);
+        }
+        finally
+        {
+            if (llm != null)
+            {
+                Console.WriteLine($"LLM cache: {llm.Hits} hits, {llm.Misses} new calls");
+                llm.Dispose();
+            }
+        }
         return 0;
     }
 

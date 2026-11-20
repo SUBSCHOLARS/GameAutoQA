@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("QaConsole")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+495cbc23f76a24bd6f84f2c6bc4a0bf95d113fd7")]
 [assembly: System.Reflection.AssemblyProductAttribute("QaConsole")]
 [assembly: System.Reflection.AssemblyTitleAttribute("QaConsole")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
