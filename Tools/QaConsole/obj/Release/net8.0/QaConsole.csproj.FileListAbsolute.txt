@@ -1,0 +1,15 @@
+/Users/hatanakakouta/QaTestbed/Tools/QaConsole/bin/Release/net8.0/QaConsole
+/Users/hatanakakouta/QaTestbed/Tools/QaConsole/bin/Release/net8.0/QaConsole.deps.json
+/Users/hatanakakouta/QaTestbed/Tools/QaConsole/bin/Release/net8.0/QaConsole.runtimeconfig.json
+/Users/hatanakakouta/QaTestbed/Tools/QaConsole/bin/Release/net8.0/QaConsole.dll
+/Users/hatanakakouta/QaTestbed/Tools/QaConsole/bin/Release/net8.0/QaConsole.pdb
+/Users/hatanakakouta/QaTestbed/Tools/QaConsole/obj/Release/net8.0/QaConsole.GeneratedMSBuildEditorConfig.editorconfig
+/Users/hatanakakouta/QaTestbed/Tools/QaConsole/obj/Release/net8.0/QaConsole.AssemblyInfoInputs.cache
+/Users/hatanakakouta/QaTestbed/Tools/QaConsole/obj/Release/net8.0/QaConsole.AssemblyInfo.cs
+/Users/hatanakakouta/QaTestbed/Tools/QaConsole/obj/Release/net8.0/QaConsole.csproj.CoreCompileInputs.cache
+/Users/hatanakakouta/QaTestbed/Tools/QaConsole/obj/Release/net8.0/QaConsole.sourcelink.json
+/Users/hatanakakouta/QaTestbed/Tools/QaConsole/obj/Release/net8.0/QaConsole.dll
+/Users/hatanakakouta/QaTestbed/Tools/QaConsole/obj/Release/net8.0/refint/QaConsole.dll
+/Users/hatanakakouta/QaTestbed/Tools/QaConsole/obj/Release/net8.0/QaConsole.pdb
+/Users/hatanakakouta/QaTestbed/Tools/QaConsole/obj/Release/net8.0/QaConsole.genruntimeconfig.cache
+/Users/hatanakakouta/QaTestbed/Tools/QaConsole/obj/Release/net8.0/ref/QaConsole.dll
