@@ -76,6 +76,28 @@ dotnet run -c Release -- verify     # 誤検出がないこと・全バグが検
 
 `--mode` は `all`（全バグ有効）/ `single`（1個ずつ）/ `subset`（`--subset 4` 個をランダムに）。
 
+### 3.5 LLM で「どこに戻るか」を選ぶ（L2、コンソール版のみ）
+
+ローカルの [Ollama](https://ollama.com) を使います（無料・オフライン）。
+
+```
+ollama pull qwen2.5:7b-instruct      # 初回のみ
+cd Tools/QaConsole
+dotnet run -c Release -- run --agents "LlmGoExplore(Position+Keys)" --seeds 10 --budget 20000 \
+  --llm-model qwen2.5:7b-instruct --llm-cache ../../QaResults/llm_cache.jsonl --out ../../QaResults
+# 記録だけで再実行（LLM を呼ばない・結果が完全に一致する）
+dotnet run -c Release -- run ...同じ引数... --llm-replay true
+```
+
+- 手法名: `LlmGoExplore(Position)` / `LlmGoExplore(Position+Keys)` / `LlmGoExplore(Full)`。既存の手法と `;` 区切りで並べて同時に回せます
+- 訪問回数ルールで候補を `--llm-k`（既定 8）個抽選し、並びをシャッフルしてから LLM が理由つきで1つ選びます。答えが読めなければ元のルールで選ばれていた候補を使います
+- 比較用に `UniformGoExplore(...)`（同じ候補から LLM の代わりにでたらめに選ぶ。LLM 不要）があります。同じシードなら最初の候補は LLM 版と同じなので、「LLM の判断に意味があるか」を切り分けられます
+- 選んだ記録は `llm_decisions.csv` に出ます（選んだ番号、元のルールの番号、選んだ候補の状態、見られた回数、LLM の理由）
+- 再現性: `temperature=0`・シード固定。LLM の入出力はすべて `--llm-cache` の JSONL に記録し、同じ入力には記録から答えます。モデル名・digest・Ollama のバージョン・プロンプトは結果フォルダの `meta.json` に残ります
+- `runs.csv` に `llm_calls`（呼び出し回数）/ `llm_fallbacks`（答えが読めなかった回数）/ `llm_ms`（LLM にかかった時間）が増えます。LLM の呼び出しは「戻る」と同じでステップを消費しません
+- LLM に見せる盤面では、バグの仕込み場所（`1`〜`4`）を見た目どおりの壁・床に置き換えています
+- 生成の設定を変えると記録のキーが変わるので、再生には記録時と同じ設定が必要です
+
 ### 4. グラフと集計
 
 ```
@@ -181,3 +203,4 @@ python analysis/plot_curves.py QaResults/<日時>
 - LLM導入の検討（Llamma）
 - C1がどうなるかを見たい
 - ステージデザイン複数で見てみる
+- 3D
